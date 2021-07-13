@@ -150,12 +150,14 @@ img.modal-image1 {
 
 }
 
-button.view-button1 {
+a.view-button1 {
     position: absolute;
     z-index:3;
+    margin-left:35%;
+    margin-bottom: 13%;
     bottom: 24%;
     margin-left: 32%;
-    width: 40%;
+    width: 28%;
     font-size: 10px;
     cursor: pointer;
 }
