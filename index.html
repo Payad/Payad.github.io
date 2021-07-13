@@ -7,58 +7,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
 
-        <!-- <script>
-            var canvas, ctx;
-            var linkText = "About";
-            var linkURL = "pages/about.html";
-            var linkX = 50;
-            var linkY = 25;
-            var linkHeight = 15;
-            var linkWidth;
-            var isLink = false;
-
-            function drawHyperLink() {
-                canvas = document.getELementById(bgCanvas);
-                if (canvas.getContext) {
-                    ctx = canvas.getContext("2d");
-                    ctx.font = linkHeight + 'px sans-serif';
-                    ctx.fillStyle = "#0000ff";
-                    ctx.fillText(linkText, linkX, linkY);
-                    linkWidth = ctx.measureText(linkText).width;
-
-                    canvas.addEventListener("mouseover", CanvasMouseMove, false);
-                    canvas.addEventListener("click", link_click, false);
-                }
-            }
-
-            function CanvasMouseMove(e) {
-                var x, y;
-                if (e.layerX || e.layerX == 0) {
-                    x= e.layerX;
-                    y = e.layerY;
-                }
-
-                x -= canvas.offsetLeft;
-                y -= canvas.offsetTop;
-
-                if (x >= linkX && x <= (linkX + linkWidth) && y <= linkY && y >= (linkY - linkWidth)) {
-                    document.body.style.cursor = "pointer";
-                    isLink = true;
-                } else {
-                    document.body.style.cursor = "";
-                    isLink = false;
-                }
-            }
-
-            function Link_click(e) {
-                if (isLink) {
-                    window.location = linkText;
-                }
-            }
-
-        </script> -->
     </head>
-    <!-- onload="drawHyperLink() -->
+
     <body>
         <header>
             <title>Awesome Final Capstone Project</title>
@@ -78,10 +28,7 @@
         <!-- must credit creator with link in html -->
         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 
-        <!-- use fixed-top class for ul nav to stick header to top -->
-        <!-- bg-dark -->
-       
-            <!-- Navbar content -->
+         <!-- Navbar content -->
           <div> 
         <ul class="nav navbar navbar-dark">
             <!-- <ul class="nav navbar"> -->
@@ -118,14 +65,9 @@
             <!-- <li class="nav-item">
               <a class="nav-link disabled" href="#">Disabled</a>
             </li> -->
-          </ul>
+          <!-- </ul> -->
 
-          <!-- <div class="searchfield">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-              </div> -->
+    
 
               <h4>Peters' Capstone Project</h4>
 
@@ -134,8 +76,6 @@
                 <input type="text" class="form-control me-2" id="search-input" onkeyup="searchFilter()" placeholder="Search" aria-label="Search">
                 <ul id="search-list">
                     <li><a>Project-1/Mercury</a></li>
-                    <!-- <li class="photos"><a href="images/mercury.jpg" data-caption="Planet Mercury">
-                    <img src="images/mercury.jpg" alt="Project-1/Mercury"></a></li> -->
                     <li><a>Project-2/Venus</a></li>
                     <li><a>Project-3/Earth</a></li>
                     <li><a>Project-4/Mars</a></li>
@@ -148,23 +88,6 @@
               </form>
               </div>
 
-              <!-- !baguetteBox search field! -->
-
-              <!-- <input type="search" name="search" id="search" placeholder="search">
-              <ul class="search-list">
-                <li class="photos"><a href="images/mercury.jpg" data-caption="Planet Mercury">
-                <img class="mercury" src="images/mercury.jpg" alt="Project-1/Mercury"></a></li>
-                <li><a>Project-2/Venus</a></li>
-                <li><a>Project-3/Earth</a></li>
-                <li><a>Project-4/Mars</a></li>
-                <li><a>Project-5/Jupiter</a></li>
-                <li><a>Project-6/Saturn</a></li>
-                <li><a>Project-7/Uranus</a></li>
-                <li><a>Project-8/Neptune</a></li>
-            </ul>
-            </div> -->
-
-
           <!-- <h4>Peters' Capstone Project</h4> -->
 
           <!-- project 1 -->
@@ -176,7 +99,6 @@
             <div class="text-field wrapper">
             <h6 class="project-1">Project 1</h6>
             <a class="project-1" href="project-1">Profile Page</a>
-            <!-- <p class="paragraph-1">project description: This is the first project</p> -->
             </div>
             </div>
 
@@ -383,16 +305,6 @@
   <!-- </footer> -->
   <!-- Footer -->
 
-
-
-        <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3117881" frameborder="0" allowtransparency></iframe> -->
-
-        <!-- <iframe width="560" height="315" src="https://mdbootstrap.com/api/snippets/embed/3117881/fullscreen" frameborder="0"></iframe> -->
-
-       <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3115031" frameborder="0" allowtransparency></iframe> -->
-
-        <!-- <iframe width="560" height="315" src="https://mdbootstrap.com/api/snippets/embed/3114971/fullscreen" frameborder="0"></iframe> -->
-        <!-- <iframe width="370" height="370" src="https://mdbootstrap.com/api/snippets/embed/3114971/fullscreen" frameborder="0"></iframe> -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -400,7 +312,5 @@
         <script src="background.js"></script>
         <!-- <script src="js/baguetteBox.min.js"></script> -->
         <!-- <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'> -->
-        <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3114995" frameborder="0" allowtransparency></iframe> -->
-    
-    </body>
+     </body>
 </html>
