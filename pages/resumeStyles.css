@@ -1,0 +1,492 @@
+body {
+    background-image: url("../images/spaceNebula.jpg");
+    color: white;
+    background-size: cover;
+}
+
+
+
+ul.nav.navbar.navbar-dark {
+    position: static;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  li.nav-item {
+    margin-right: auto;
+  }
+
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    position: absolute;
+    z-index: 2;
+  }
+  .nav-link2 {
+    position: absolute;
+    top: 16px;
+    z-index: 2;
+    margin-left: 18px;
+  }
+
+  h1 {
+  font-size: 20px;
+  margin-left: 40%;
+  margin-top: 30%;
+  }
+
+  .title,
+  .skills,
+  .experience,
+  .education,
+  .references {
+      font-size: 10px;
+      margin: 20px;
+  }
+
+  .skills-title
+  /* .experience-title, */
+  /* .reference-title  */
+  {
+      margin-left: 45%;
+      margin-bottom: 5px;
+  }
+
+  .experience-title,
+  .education-title,
+  .reference-title {
+    margin-left: 40%;
+    margin-bottom: 5px;
+  }
+
+  .address {
+      margin-bottom: 20px;
+  }
+
+  .name {
+      margin-left: 38%;
+      margin-bottom: 5px;
+  }
+
+  .exp1,
+  .exp2,
+  .exp3,
+  .exp4,
+  .exp5,
+  .exp6,
+  .exp7,
+  .exp8,
+  .exp9,
+  .exp10 {
+      margin-bottom: 20px;
+  }
+
+  .exp-date1 {
+      margin-left: 35%;
+  }
+
+  .manager-name1 {
+      margin-left: 33%;
+  }
+
+  .location1 {
+      margin-left: 38%;
+      margin-bottom: 5px;
+  }
+
+  .exp-date2 {
+      margin-left: 37%;
+  }
+
+  .manager-name2 {
+      margin-left: 38%;
+  }
+
+  .location2 {
+      margin-left: 37%;
+      margin-bottom: 5px;
+  }
+
+  .exp-date3 {
+      margin-left: 37%;
+  }
+
+  .place-name3 {
+      margin-left: 35%;
+  }
+
+  .location3 {
+      margin-left: 38%;
+  }
+
+  .exp-date4 {
+      margin-left: 34%;
+  }
+
+  .place-name4 {
+      margin-left: 27%;
+  }
+
+  .location4 {
+      margin-left: 38%;
+  }
+
+  .exp-date5 {
+      margin-left: 34%;
+  }
+  
+  .place-name5 {
+      margin-left: 36%;
+  }
+
+  .location5 {
+      margin-left: 36%;
+  }
+
+  .exp-date6,
+  .exp-date7,
+  .exp-date8,
+  .exp-date9,
+  .exp-date10 {
+      margin-left: 34%;
+  }
+
+  .place-name6 {
+      margin-left: 42%;
+  }
+
+  .location6 {
+      margin-left: 32.5%;
+  }
+
+  .place-name7 {
+      margin-left: 41%;
+  }
+
+  .location7 {
+      margin-left: 38%;
+  }
+
+  .place-name8 {
+      margin-left: 30%;
+  }
+
+  .location8 {
+      margin-left: 36%;
+  }
+
+  .place-name9 {
+      margin-left: 42%;
+  }
+
+  .location9 {
+      margin-left: 38%;
+  }
+
+  .place-name10 {
+      margin-left: 39%;
+  }
+
+  .location10 {
+      margin-left: 39%;
+  }
+
+  .treehouse {
+      margin-bottom: 5px;
+  }
+
+  .diploma {
+      margin-bottom: 5px;
+  }
+
+  @media (min-width: 768px) {
+    ul.nav.navbar.navbar-dark {
+        position: static;
+        font-size: 10px;
+        justify-content: center;
+        margin-left: 80px;
+      }
+
+      .name {
+          margin-left: 40%;
+      }
+
+      .skills-title {
+          margin-left: 43%;
+      }
+
+      .exp-date1 {
+          margin-left: 38%;
+      }
+
+      .manager-name1 {
+          margin-left: 37%;
+      }
+
+      .location1 {
+          margin-left: 39%;
+
+      }
+
+      .exp-date2 {
+          margin-left: 39%;
+      }
+
+      .manager-name2 {
+          margin-left: 39%;
+      }
+
+      .location2 {
+          margin-left: 39%;
+      }
+
+      .exp-date3 {
+        margin-left: 39%;
+    }
+
+    .place-name3 {
+        margin-left: 38%;
+    }
+
+    .location3 {
+        margin-left: 39%;
+    }
+
+    .exp-date4 {
+        margin-left: 38%;
+    }
+
+    .place-name4 {
+        margin-left: 35%;
+    }
+
+    .location4 {
+        margin-left: 39%;
+    }
+
+    .exp-date5 {
+        margin-left: 38%;
+    }
+
+    .place-name5 {
+        margin-left: 39%;
+    }
+
+    .location5 {
+        margin-left: 39%;
+    }
+
+    .exp-date6 {
+        margin-left: 38%;
+    }
+
+    .place-name6 {
+        margin-left: 41%;
+    }
+
+    .location6 {
+        margin-left: 38%;
+    }
+
+    .exp-date7,
+    .exp-date8,
+    .exp-date9,
+    .exp-date10 {
+        margin-left: 38%;
+    }
+
+    .place-name7 {
+        margin-left: 41%;
+    }
+
+    .location7 {
+        margin-left: 40%;
+    }
+
+    .place-name8 {
+        margin-left: 37%;
+    }
+
+    .location8 {
+        margin-left: 40%;
+    }
+
+    .place-name9 {
+        margin-left: 41%;
+    }
+
+    .location9 {
+        margin-left: 39%;
+    }
+
+    .place-name10 {
+        margin-left: 40%;
+    }
+
+    .location10 {
+        margin-left: 39%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title,
+    .skills,
+    .experience,
+    .education,
+    .references {
+        font-size: 14px;
+    }
+
+    h1 {
+        margin-left: 42%;
+    }
+
+    .name {
+        margin-left: 41%;
+    }
+    
+    ul.nav.navbar.navbar-dark {
+        position: static;
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 12%;
+      }
+    
+    .skills-title {
+        margin-left: 44%;
+    }
+
+    .experience-title {
+        margin-left: 42%;
+        margin-bottom: 20px;
+    }
+
+    .education-title {
+        margin-left: 41.5%;
+    }
+
+    .exp-date1 {
+        margin-left: 40%;
+    }
+
+    .manager-name1 {
+        margin-left: 39.5%;
+    }
+
+    .location1 {
+        margin-left: 41%;
+    }
+
+    .exp-date2 {
+        margin-left: 40.5%;
+    }
+
+    .manager-name2 {
+        margin-left: 41%;
+    }
+
+    .location2 {
+        margin-left: 40.5%;
+    }
+
+    .exp-date3 {
+        margin-left: 40.5%
+    }
+
+    .place-name3 {
+        margin-left: 39.5%;
+    }
+
+    .location3 {
+        margin-left: 40.5%;
+    }
+
+    .exp-date4 {
+        margin-left: 40%;
+    }
+
+    .place-name4 {
+        margin-left: 37%;
+    }
+
+    .location4 {
+        margin-left: 41%;
+    }
+
+    .exp-date5 {
+        margin-left: 40%;
+    }
+
+    .place-name5 {
+        margin-left: 40.5%;
+    }
+
+    .location5 {
+        margin-left: 40.5%;
+    }
+
+    .exp-date6 {
+        margin-left: 40%;
+    }
+
+    .place-name6 {
+        margin-left: 43.5%;
+    }
+
+    .location6 {
+        margin-left: 40%;
+    }
+
+    .exp-date7 {
+        margin-left: 40%;
+    }
+    .place-name7 {
+        margin-left: 42.5%;
+    }
+
+    .location7 {
+        margin-left: 41%;
+    }
+
+    .exp-date8 {
+        margin-left: 40%;
+    }
+
+    .place-name8 {
+        margin-left: 39%;
+    }
+
+    .location8 {
+        margin-left: 41%;
+    }
+
+    .exp-date9 {
+        margin-left: 40%;
+    }
+
+    .place-name9 {
+        margin-left: 43%;
+    }
+
+    .location9 {
+        margin-left: 41%;
+    }
+
+    .exp-date10 {
+        margin-left: 40%;
+    }
+
+    .place-name10 {
+        margin-left: 41.5%;
+    }
+
+    .location10 {
+        margin-left: 41%;
+    }
+
+    .reference-title {
+        margin-left: 41%;
+    }
+  }
+  
+  

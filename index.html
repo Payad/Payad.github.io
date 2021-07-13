@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="stylesheet" href="css/baguetteBox.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- <script>
+            var canvas, ctx;
+            var linkText = "About";
+            var linkURL = "pages/about.html";
+            var linkX = 50;
+            var linkY = 25;
+            var linkHeight = 15;
+            var linkWidth;
+            var isLink = false;
+
+            function drawHyperLink() {
+                canvas = document.getELementById(bgCanvas);
+                if (canvas.getContext) {
+                    ctx = canvas.getContext("2d");
+                    ctx.font = linkHeight + 'px sans-serif';
+                    ctx.fillStyle = "#0000ff";
+                    ctx.fillText(linkText, linkX, linkY);
+                    linkWidth = ctx.measureText(linkText).width;
+
+                    canvas.addEventListener("mouseover", CanvasMouseMove, false);
+                    canvas.addEventListener("click", link_click, false);
+                }
+            }
+
+            function CanvasMouseMove(e) {
+                var x, y;
+                if (e.layerX || e.layerX == 0) {
+                    x= e.layerX;
+                    y = e.layerY;
+                }
+
+                x -= canvas.offsetLeft;
+                y -= canvas.offsetTop;
+
+                if (x >= linkX && x <= (linkX + linkWidth) && y <= linkY && y >= (linkY - linkWidth)) {
+                    document.body.style.cursor = "pointer";
+                    isLink = true;
+                } else {
+                    document.body.style.cursor = "";
+                    isLink = false;
+                }
+            }
+
+            function Link_click(e) {
+                if (isLink) {
+                    window.location = linkText;
+                }
+            }
+
+        </script> -->
+    </head>
+    <!-- onload="drawHyperLink() -->
+    <body>
+        <header>
+            <title>Awesome Final Capstone Project</title>
+        </header>
+
+        <div class="alertBox" id="alert">
+            <div class="alertBanner">
+                <p>Welcome to my Capstone Portfolio!
+                   Click on the planets to view the projects! </p>
+                <!-- <p>Click on the planets to view the projects!</p> -->
+                <p class="alert-banner-close">&times;</p>
+            </div>
+        </div>
+
+        <canvas id="bgCanvas"></canvas>
+    
+        <!-- must credit creator with link in html -->
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+        <!-- use fixed-top class for ul nav to stick header to top -->
+        <!-- bg-dark -->
+       
+            <!-- Navbar content -->
+          <div> 
+        <ul class="nav navbar navbar-dark">
+            <!-- <ul class="nav navbar"> -->
+            <li class="nav-item">
+              <a class="nav-link active" href="pages/about.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link2" href="pages/About.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/Resume.html">Resume</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/Contact.html">Contact</a>
+            </li>
+        </div>
+            <!-- <div class="searchfield">
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" id="search-input" onkeyup="searchFilter()" placeholder="Search" aria-label="Search">
+                <ul id="search-list">
+                    <li><a>Project-1/Mercury</a></li>
+                    <li><a>Project-2/Venus</a></li>
+                    <li><a>Project-3/Earth</a></li>
+                    <li><a>Project-4/Mars</a></li>
+                    <li><a>Project-5/Jupiter</a></li>
+                    <li><a>Project-6/Saturn</a></li>
+                    <li><a>Project-7/Uranus</a></li>
+                    <li><a>Project-8/Neptune</a></li>
+                </ul>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              </div> -->
+
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+          </ul>
+
+          <!-- <div class="searchfield">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              </div> -->
+
+              <h4>Peters' Capstone Project</h4>
+
+               <div class="searchfield">
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" id="search-input" onkeyup="searchFilter()" placeholder="Search" aria-label="Search">
+                <ul id="search-list">
+                    <li><a>Project-1/Mercury</a></li>
+                    <!-- <li class="photos"><a href="images/mercury.jpg" data-caption="Planet Mercury">
+                    <img src="images/mercury.jpg" alt="Project-1/Mercury"></a></li> -->
+                    <li><a>Project-2/Venus</a></li>
+                    <li><a>Project-3/Earth</a></li>
+                    <li><a>Project-4/Mars</a></li>
+                    <li><a>Project-5/Jupiter</a></li>
+                    <li><a>Project-6/Saturn</a></li>
+                    <li><a>Project-7/Uranus</a></li>
+                    <li><a>Project-8/Neptune</a></li>
+                </ul>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              </div>
+
+              <!-- !baguetteBox search field! -->
+
+              <!-- <input type="search" name="search" id="search" placeholder="search">
+              <ul class="search-list">
+                <li class="photos"><a href="images/mercury.jpg" data-caption="Planet Mercury">
+                <img class="mercury" src="images/mercury.jpg" alt="Project-1/Mercury"></a></li>
+                <li><a>Project-2/Venus</a></li>
+                <li><a>Project-3/Earth</a></li>
+                <li><a>Project-4/Mars</a></li>
+                <li><a>Project-5/Jupiter</a></li>
+                <li><a>Project-6/Saturn</a></li>
+                <li><a>Project-7/Uranus</a></li>
+                <li><a>Project-8/Neptune</a></li>
+            </ul>
+            </div> -->
+
+
+          <!-- <h4>Peters' Capstone Project</h4> -->
+
+          <!-- project 1 -->
+            <div class="projects">
+            <div class="image-desc">
+                <!-- <a href="pages/about.html" alt="first Project"> -->
+            <img  class="mercury" id="mercury" src="images/mercury.jpg">
+            <!-- </a> -->
+            <div class="text-field wrapper">
+            <h6 class="project-1">Project 1</h6>
+            <a class="project-1" href="project-1">Profile Page</a>
+            <!-- <p class="paragraph-1">project description: This is the first project</p> -->
+            </div>
+            </div>
+
+            <!-- modal window 1 -->
+            <div class="modal-window" id="modal-window">
+                <div class="modal-content">
+                    <span class="close" id="close">&times;</span>
+                    <img class="modal-image1" id="modal-image1" src="images/mercury.jpg" alt="first modal image">
+                    <hr>
+                    <p class="modal-desc">Hello welcome to the first planet.. Mercury! and the first project...The personal profile page. In this project, I personalized my profile page by adding graphics, customizing and styling text, as well as improving the overall look and feel of the website. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-Project-1/">
+                <button class="view-button1">view project</button>
+            </a>
+            </div>
+
+            <!-- project 2 -->
+            <div class="project-2">
+                <img class="venus" id="venus" src="images/venusplanet.jpg">
+                <div class="text-field-2 wrapper">
+                <h6 class="project-2">Project 2</h6>
+                <a class="project-2" href="project-2">Responsive Layout</a>
+               </div>
+            </div>
+
+             <!-- modal window 2 -->
+             <div class="modal-window2" id="modal-window2">
+                <div class="modal-content2">
+                    <span class="close2" id="close2">&times;</span>
+                    <img class="modal-image2" id="modal-image2" src="images/venusplanet.jpg" alt="second modal image">
+                    <hr class="second-line">
+                    <p class="modal-desc2">Hello welcome to the second planet.. Venus! and the second project...The Responsive layout page. In this project I created a mobile-first responsive layout, 
+                        that included positioning elements side-by-side in a display, using inline-block, width, height, top and bottom margin and padding styles, as well as addiing different media queries for device viewports to layout the website. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-2/">
+                <button class="view-button2">view project</button>
+                </a>
+            </div>
+
+            <!-- project 3 -->
+            <div class="project-3">
+                <img class="earth" id="earth" src="images/earth4.jpg">
+                <div class="text-field-3 wrapper">
+                <h6 class="project-3">Project 3</h6>
+                <a class="project-3" href="project-3">Online Registration Form</a>
+               </div>
+            </div>
+
+             <!-- modal window 3 -->
+            <div class="modal-window3" id="modal-window3">
+                <div class="modal-content3">
+                    <span class="close3" id="close3">&times;</span>
+                     <img class="modal-image3" id="modal-image3" src="images/earth4.jpg" alt="third modal image">
+                    <hr class="third-line">
+                    <p class="modal-desc3">Hello welcome to the third planet.. Earth! and the third project...The Online Registration Form. In this project I created a mobile-first registration form by using HTML tables, HTML forms, CSS selectors, and flexbox layout styles. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-3/">
+                 <button class="view-button3">view project</button>
+                 </a>
+            </div>
+
+            <!-- project 4 -->
+            <div class="project-4">
+                <img class="mars" id="mars" src="images/mars.jpg">
+                <div class="text-field-4 wrapper">
+                <h6 class="project-4">Project 4</h6>
+                <a class="project-4" href="project-4">Web Style Guide</a>
+              </div>
+            </div>
+
+             <!-- modal window 4 -->
+             <div class="modal-window4" id="modal-window4">
+                <div class="modal-content4">
+                    <span class="close4" id="close4">&times;</span>
+                     <img class="modal-image4" id="modal-image4" src="images/mars.jpg" alt="fourth modal image">
+                    <hr class="fourth-line">
+                    <p class="modal-desc4">Hello welcome to the fourth planet.. Mars! and the fourth project...The Web Style Guide. In this project I created a web style guide acting as my own custom bootstrap that speeds up the process of styling, layout, and development using Sass . Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-4/">
+                 <button class="view-button4">view project</button>
+                 </a>
+            </div>
+
+            <!-- project 5 -->
+            <div class="project-5">
+                <img class="jupiter" id="jupiter" src="images/jupiter.jpg">
+                <div class="text-field-5 wrapper">
+                <h6 class="project-5">Project 5</h6>
+                <a class="project-5" href="project-5">Interactive Photo Gallery</a>
+             </div>
+            </div>
+
+             <!-- modal window 5 -->
+             <div class="modal-window5" id="modal-window5">
+                <div class="modal-content5">
+                    <span class="close5" id="close5">&times;</span>
+                     <img class="modal-image5" id="modal-image5" src="images/jupiter.jpg" alt="fifth modal image">
+                    <hr class="fifth-line">
+                    <p class="modal-desc5">Hello welcome to the fifth planet.. Jupiter! and the fifth project...The Interactive Photo Gallery. In this project I created a interactive photo gallery using HTML, CSS, and Javascript (BuegetteBox pluggin) that allows you to search for a specific image by filtering keywords. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-5/">
+                 <button class="view-button5">view project</button>
+                 </a>
+            </div>
+
+            <!-- project 6 -->
+            <div class="project-6">
+                <img class="saturn" id="saturn" src="images/saturn.jpg">
+                <div class="text-field-6 wrapper">
+                <h6 class="project-6">Project 6</h6>
+                <a class="project-6" href="project-6">Game Show App</a>
+               </div>
+            </div>
+
+             <!-- modal window 6 -->
+             <div class="modal-window6" id="modal-window6">
+                <div class="modal-content6">
+                    <span class="close6" id="close6">&times;</span>
+                     <img class="modal-image6" id="modal-image6" src="images/saturn.jpg" alt="sixth modal image">
+                    <hr class="sixth-line">
+                    <p class="modal-desc6">Hello welcome to the sixth planet.. Saturn! and the sixth project...The Game Show App. In this project I created a browser version of a word guessing game show app, that utilizes the uses of Javascript to generate random phrases for the user to guess by entering letters into the program. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-6/">
+                 <button class="view-button6">view project</button>
+                 </a>
+            </div>
+
+            <!-- project 7 -->
+            <div class="project-7">
+                <img class="uranus" id="uranus" src="images/uranus6.jpg">
+                <div class="text-field-7 wrapper">
+                <h6 class="project-7">Project 7</h6>
+                <a class="project-7" href="project-7">WebApp DashBoard</a>
+               </div>
+            </div>
+
+             <!-- modal window 7 -->
+             <div class="modal-window7" id="modal-window7">
+                <div class="modal-content7">
+                    <span class="close7" id="close7">&times;</span>
+                     <img class="modal-image7" id="modal-image7" src="images/uranus6.jpg" alt="seventh modal image">
+                    <hr class="seventh-line">
+                    <p class="modal-desc7">Hello welcome to the seventh planet.. Uranus! pronounced "Urine-us" and the seventh project...The WebApp DashBoard. In this project I created a dashboard application using advanced web technologies including SVG graphics, tables, charts and other interface components. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-7/">
+                 <button class="view-button7">view project</button>
+                 </a>
+            </div>
+
+            <!-- project 8 -->
+            <div class="project-8">
+                <img class="neptune" id="neptune" src="images/neptune.jpg">
+                <div class="text-field-8 wrapper">
+                <h6 class="project-8">Project 8</h6>
+                <a class="project-8" href="project-8">Employee Directory</a>
+               </div>
+            </div>
+
+             <!-- modal window 8 -->
+             <div class="modal-window8" id="modal-window8">
+                <div class="modal-content8">
+                    <span class="close8" id="close8">&times;</span>
+                     <img class="modal-image8" id="modal-image8" src="images/neptune.jpg" alt="eighth modal image">
+                    <hr class="eighth-line">
+                    <p class="modal-desc8">Hello welcome to the eighth planet.. Neptune! and the eighth project...The Employee Directory. In this project I created an employee directory using JS and AJAX to communicate with a web server, and the fetch API to retrieve random user images, and data to display employees. Take a look!</p>
+                </div>
+                <a href="https://payad.github.io/Techdegree-project-8/">
+                 <button class="view-button8">view project</button>
+                 </a>
+            </div>
+
+        </div>
+
+    <!-- </ul>
+    </div> -->
+
+        <!-- <div>
+            <a href="https://www.facebook.com/profile.php?id=100009381850904">
+                <img class="facebook-icon" src="icons/facebookIconBlack.png" alt="facebook icon">
+            </a>
+        </div> -->
+
+        <!-- Footer -->
+<footer class="page-footer font-small blue">
+    <div class="flex-footer">
+        <!-- <a href="https://www.facebook.com/profile.php?id=100009381850904">
+            <img class="facebook-icon" src="icons/facebookIconBlack.png" alt="facebook icon">
+        </a> -->
+    <!-- </div> -->
+
+    <!-- <div> -->
+        <!-- <a href="">
+            <img class="linkedin-icon" src="icons/linkedin2.png" alt="linkedin icon">
+        </a> -->
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <!-- <a href="https://mdbootstrap.com/"> MDBootstrap.com</a> -->
+      <a href=> Peter Ayad</a>
+    </div>
+    <!-- Copyright -->
+  
+  <!-- </footer> -->
+  <!-- Footer -->
+
+
+
+        <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3117881" frameborder="0" allowtransparency></iframe> -->
+
+        <!-- <iframe width="560" height="315" src="https://mdbootstrap.com/api/snippets/embed/3117881/fullscreen" frameborder="0"></iframe> -->
+
+       <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3115031" frameborder="0" allowtransparency></iframe> -->
+
+        <!-- <iframe width="560" height="315" src="https://mdbootstrap.com/api/snippets/embed/3114971/fullscreen" frameborder="0"></iframe> -->
+        <!-- <iframe width="370" height="370" src="https://mdbootstrap.com/api/snippets/embed/3114971/fullscreen" frameborder="0"></iframe> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+        <script src="background.js"></script>
+        <!-- <script src="js/baguetteBox.min.js"></script> -->
+        <!-- <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'> -->
+        <!-- <iframe width="158" height="49" scrolling="no" role="presentation" src="https://mdbootstrap.com/api/snippets/embed/3114995" frameborder="0" allowtransparency></iframe> -->
+    
+    </body>
+</html>

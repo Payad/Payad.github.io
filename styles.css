@@ -1,0 +1,2499 @@
+ /* body { 
+     background-image: url(images/pexels-miriam-espacio-galaxy.jpg); */
+     /* background: url(images/pexels-miriam-espacio-galaxy.jpg) no-repeat;
+     background-position: center center fixed; */
+     
+     /* background-size: contain; 
+     background-size: cover;  */
+     /* background-size: no-repeat top center fixed; */
+     /* width: 100%;
+    height: 100%;  */
+ /* }  */
+
+ /* img {
+     image-rendering: pixelated;
+ } */
+
+/* .background-image {
+    height: 100%;
+    min-height: 700px;
+    background-size: cover;
+    position: relative;
+    image-rendering: pixelated;
+} */
+
+body, html {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    font-size: 10px;
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* margin-bottom: 55px; */
+    margin-bottom: 35px;
+    margin-right: 70px;
+}
+
+.searchfield {
+    display: block;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 20px;
+}
+
+/* .search {
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 20px;
+    z-index: -2;
+}
+
+input#search {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30%;
+    height: 25px;
+} */
+
+ul#search-list {
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+
+.form-control {
+    height: 25px;
+    margin-left: 20px;
+}
+
+.btn-outline-success {
+    color: blue;
+    background-color: transparent;
+    background-image: none;
+    border-color: blue;
+    height: 25px;
+    font-size: 10px
+}
+
+.btn {
+    padding: 5px;
+}
+
+div#alert {
+    position: absolute;
+    z-index: 2;
+    font-size: 10px;
+    margin-left: 17%;
+    margin-top: 25%;
+    border: 2px solid white;
+    width: 65%;
+    padding: 8px;
+    border-radius: 5px;
+    height: 7.5%;
+}
+
+p.alert-banner-close {
+    position: absolute;
+    top: 0;
+    margin-left: 90%;
+    cursor: pointer;
+    
+}
+
+h4 {
+    position: absolute;
+    font-size: 12px;
+    margin-left: 28%;
+    /* margin-top: 30%; */
+    /* margin-top: 5%; */
+    color: blue;
+}
+
+.nav-link2 {
+    position: absolute;
+    top: 16px;
+    z-index: 2;
+    margin-left: 18px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.projects {
+    display: block;
+    margin-top: 30%;
+}
+
+
+.mercury {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 17%;;
+    border-radius: 60px;
+    margin-top: 25%;
+    animation: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* modal window 1 */
+.modal-content {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 3;
+    width: 50%;
+    height: 42%;
+    margin-left: 27%;
+    margin-top: 40%;
+    background-color: black;
+}
+
+p.modal-desc {
+    font-size: 10px;
+    position: absolute;
+    z-index: 3;
+    color: black;
+    margin-top: 90px;
+    display: flex;
+    padding: 10px;
+    color: lightsteelblue;
+}
+
+hr {
+    /* color: black; */
+    width: 100px;
+    border: 1px solid gray;
+}
+
+img.modal-image1 {
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 54px;
+    border-radius: 30px;
+
+}
+
+button.view-button1 {
+    position: absolute;
+    z-index:3;
+    bottom: 24%;
+    margin-left: 32%;
+    width: 40%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+span.close {
+    position: absolute;
+    right: 2%;
+    top: 0;
+    color: lightsteelblue;
+    z-index: 3;
+    bottom: 20.5%;
+    margin-left: 32%;
+    /* width: 40%; */
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.close {
+    font-weight: 0px;
+    text-shadow: 0px;
+    /* opacity: 0; */
+}
+
+/* modal window 2 */
+.modal-content2 {
+display: flex;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 3;
+    width: 50%;
+    /* height: 42%; */
+    height: 45%;
+    margin-left: 27%;
+    margin-top: 40%;
+    background-color: black;
+}
+
+p.modal-desc2 {
+    font-size: 10px;
+    position: absolute;
+    z-index: 3;
+    color: black;
+    margin-top: 90px;
+    display: flex;
+    padding: 10px;
+    color: lightsteelblue;
+    margin-bottom: 20px;
+}
+
+hr.second-line {
+    position: absolute;
+    top: 0;
+    margin-top: 45%;
+    margin-left: 15%;
+}
+
+img.modal-image2 {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 54px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+button.view-button2 {
+    position: absolute;
+    z-index:3;
+    bottom: 20.5%;
+    margin-left: 32%;
+    width: 40%;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+span.close2 {
+    position: absolute;
+    right: 2%;
+    top: 0;
+    color: lightsteelblue;
+    cursor: pointer;
+}
+
+/* modal window 3 */
+
+.modal-content3 {
+    display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 50%;
+        /* height: 42%; */
+        /* height: 45%; */
+        height: 38%;
+        margin-left: 27%;
+        margin-top: 40%;
+        background-color: black;
+    }
+
+    p.modal-desc3 {
+        /* font-size: 10px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 20px; */
+        font-size: 10px;
+    position: absolute;
+    z-index: 3;
+    color: black;
+    margin-top: 90px;
+    display: flex;
+    padding: 10px;
+    color: lightsteelblue;
+    margin-bottom: 28px;
+
+    }
+
+    hr.third-line {
+        position: absolute;
+        top: 0;
+        margin-top: 45%;
+        margin-left: 15%;
+    }
+
+    img.modal-image3 {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 12px;
+        margin-right: 54px;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    
+    button.view-button3 {
+        position: absolute;
+        z-index:3;
+        bottom: 28.5%;
+        margin-left: 32%;
+        width: 40%;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    
+    span.close3 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        cursor: pointer;
+    }
+    
+    /* modal window 4 */
+
+    .modal-content4 {
+        display: flex;
+            align-items: flex-end;
+            position: absolute;
+            z-index: 3;
+            width: 50%;
+            /* height: 42%; */
+            /* height: 45%; */
+            height: 38%;
+            margin-left: 27%;
+            margin-top: 40%;
+            background-color: black;
+        }
+
+        p.modal-desc4 {
+            /* font-size: 10px;
+            position: absolute;
+            z-index: 3;
+            color: black;
+            margin-top: 90px;
+            display: flex;
+            padding: 10px;
+            color: lightsteelblue;
+            margin-bottom: 20px; */
+            font-size: 10px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 28px;
+    
+        }
+
+        hr.fourth-line {
+            position: absolute;
+            top: 0;
+            margin-top: 45%;
+            margin-left: 15%;
+        }
+
+        img.modal-image4 {
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            width: 50px;
+            height: 50px;
+            margin-top: 12px;
+            margin-right: 54px;
+            border-radius: 30px;
+            margin-left: 50px;
+        }
+
+        button.view-button4 {
+            position: absolute;
+            z-index:3;
+            bottom: 28.5%;
+            margin-left: 32%;
+            width: 40%;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        span.close4 {
+            position: absolute;
+            right: 2%;
+            top: 0;
+            color: lightsteelblue;
+            cursor: pointer;
+        }
+
+        /* modal window 5 */
+    
+        .modal-content5 {
+            display: flex;
+                align-items: flex-end;
+                position: absolute;
+                z-index: 3;
+                width: 50%;
+                /* height: 42%; */
+                /* height: 45%; */
+                height: 38%;
+                margin-left: 27%;
+                margin-top: 40%;
+                background-color: black;
+            }
+
+            p.modal-desc5 {
+                /* font-size: 10px;
+                position: absolute;
+                z-index: 3;
+                color: black;
+                margin-top: 90px;
+                display: flex;
+                padding: 10px;
+                color: lightsteelblue;
+                margin-bottom: 20px; */
+                font-size: 10px;
+            position: absolute;
+            z-index: 3;
+            color: black;
+            margin-top: 90px;
+            display: flex;
+            padding: 10px;
+            color: lightsteelblue;
+            margin-bottom: 28px;
+        
+            }
+
+            hr.fifth-line {
+                position: absolute;
+                top: 0;
+                margin-top: 38%;
+                margin-left: 15%;
+            }
+
+            img.modal-image5 {
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 50px;
+                height: 50px;
+                margin-top: 8px;
+                margin-right: 54px;
+                border-radius: 30px;
+                margin-left: 50px;
+            }
+
+            button.view-button5 {
+                position: absolute;
+                z-index:3;
+                bottom: 28.5%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            span.close5 {
+                position: absolute;
+                right: 2%;
+                top: 0;
+                color: lightsteelblue;
+                cursor: pointer;
+            }
+
+            /* modal window 6 */
+            
+            .modal-content6 {
+                display: flex;
+                    align-items: flex-end;
+                    position: absolute;
+                    z-index: 3;
+                    width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
+                    height: 40%;
+                    margin-left: 27%;
+                    margin-top: 40%;
+                    background-color: black;
+                }
+
+                p.modal-desc6 {
+                    /* font-size: 10px;
+                    position: absolute;
+                    z-index: 3;
+                    color: black;
+                    margin-top: 90px;
+                    display: flex;
+                    padding: 10px;
+                    color: lightsteelblue;
+                    margin-bottom: 20px; */
+                    font-size: 10px;
+                position: absolute;
+                z-index: 3;
+                color: black;
+                margin-top: 90px;
+                display: flex;
+                padding: 10px;
+                color: lightsteelblue;
+                margin-bottom: 24px;
+            }
+
+            hr.sixth-line {
+                position: absolute;
+                top: 0;
+                margin-top: 40%;
+                margin-left: 15%;
+            }
+
+            img.modal-image6 {
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 50px;
+                height: 50px;
+                margin-top: 8px;
+                margin-right: 54px;
+                border-radius: 30px;
+                margin-left: 50px;
+            }
+
+            button.view-button6 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            span.close6 {
+                position: absolute;
+                right: 2%;
+                top: 0;
+                color: lightsteelblue;
+                cursor: pointer;
+            }
+
+            /* modal window 7 */
+             
+            .modal-content7 {
+                display: flex;
+                    align-items: flex-end;
+                    position: absolute;
+                    z-index: 3;
+                    width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
+                    height: 40%;
+                    margin-left: 27%;
+                    margin-top: 40%;
+                    background-color: black;
+                }
+
+                p.modal-desc7 {
+                    /* font-size: 10px;
+                    position: absolute;
+                    z-index: 3;
+                    color: black;
+                    margin-top: 90px;
+                    display: flex;
+                    padding: 10px;
+                    color: lightsteelblue;
+                    margin-bottom: 20px; */
+                    font-size: 10px;
+                position: absolute;
+                z-index: 3;
+                color: black;
+                margin-top: 90px;
+                display: flex;
+                padding: 10px;
+                color: lightsteelblue;
+                margin-bottom: 25px;
+            }
+
+            hr.seventh-line {
+                position: absolute;
+                top: 0;
+                margin-top: 38%;
+                margin-left: 15%;
+            }
+
+            img.modal-image7 {
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 50px;
+                height: 50px;
+                margin-top: 8px;
+                margin-right: 54px;
+                border-radius: 30px;
+                margin-left: 50px;
+            }
+
+            button.view-button7 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            span.close7 {
+                position: absolute;
+                right: 2%;
+                top: 0;
+                color: lightsteelblue;
+                cursor: pointer;
+            }
+
+            /* modal window 8 */
+
+            .modal-content8 {
+                display: flex;
+                    align-items: flex-end;
+                    position: absolute;
+                    z-index: 3;
+                    width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
+                    height: 40%;
+                    margin-left: 27%;
+                    margin-top: 40%;
+                    background-color: black;
+                }
+
+                p.modal-desc8 {
+                    /* font-size: 10px;
+                    position: absolute;
+                    z-index: 3;
+                    color: black;
+                    margin-top: 90px;
+                    display: flex;
+                    padding: 10px;
+                    color: lightsteelblue;
+                    margin-bottom: 20px; */
+                    font-size: 10px;
+                position: absolute;
+                z-index: 3;
+                color: black;
+                margin-top: 90px;
+                display: flex;
+                padding: 10px;
+                color: lightsteelblue;
+                margin-bottom: 25px;
+            }
+
+            hr.eighth-line {
+                position: absolute;
+                top: 0;
+                margin-top: 38%;
+                margin-left: 15%;
+            }
+
+            img.modal-image8 {
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                width: 50px;
+                height: 50px;
+                margin-top: 5px;
+                margin-right: 54px;
+                border-radius: 30px;
+                margin-left: 55px;
+            }
+
+            button.view-button8 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            span.close8 {
+                position: absolute;
+                right: 2%;
+                top: 0;
+                color: lightsteelblue;
+                cursor: pointer;
+            }
+
+
+
+img.mercury:hover,
+img.venus:hover,
+img.earth:hover,
+img.mars:hover,
+img.jupiter:hover,
+img.saturn:hover,
+img.uranus:hover,
+img.neptune:hover {
+    /* z-index: 2; */
+   animation: popout 2s ease-out backwards;
+  
+  
+
+   }
+
+   /* .image-desc {
+       animation: poput 2s ease-out;
+   } */
+
+
+
+
+
+
+.text-field.wrapper {
+  margin-top: 20%;
+  margin-left: 8%;
+   
+}
+
+.wrapper{
+    position: absolute;
+    /* top: 0px; */
+    color: white;
+    font-size: 8px;
+    margin : 20px;
+    /* margin-top: 0; */
+}
+
+h6.project-1 {
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-1 {
+    margin-left: 75px;
+}
+
+/* project 2 */
+img.venus {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 70%;
+    border-radius: 60px;
+    margin-top: 40%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-2.wrapper {
+    color: white;
+    /* font-size: 10px; */
+    margin-left: 45px;
+    margin-top: 35%;
+}
+
+h6.project-2 {
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-2 {
+    margin-left: 105px;
+}
+
+p.paragraph-2 {
+    margin-left: 45px;
+}
+
+/* project 3 */
+img.earth {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 55px;
+    border-radius: 60px;
+    margin-top: 60%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-3 {
+    color: white;
+   margin-top: 175px;
+    /* margin-top: 90px; */
+ 
+}
+
+h6.project-3 {
+    margin-left: 117px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-3 {
+    margin-left: 90px;
+}
+
+p.paragraph-3 {
+    margin-left: 45px;
+}
+
+/* project 4 */
+img.mars {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 65%;
+    border-radius: 60px;
+    margin-top: 80%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-4 {
+    color: white;
+    margin-top: 77%;
+
+}
+
+h6.project-4 {
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-4 {
+    margin-left: 110px;
+}
+
+p.paragraph-4 {
+    margin-left: 45px;
+}
+
+/* project 5 */
+img.jupiter {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 10%;
+    border-radius: 60px;
+    margin-top: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.text-field-5 {
+   color: white;
+   margin-top: 97%;
+}
+
+h6.project-5 {
+    margin-left: 95px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-5 {
+    margin-left: 71px;
+}
+
+p.paragraph-5 {
+    margin-left: 45px;
+}
+
+/* project 6 */
+img.saturn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 75%;
+    border-radius: 60px;
+    margin-top: 117%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-6 {
+    color: white;
+    margin-top: 57%;
+    margin-left: 90px;
+  
+}
+
+h6.project-6 {
+    margin-left: 90px;
+    margin-top: 140%;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-6 {
+    margin-left: 80px;
+}
+
+p.paragraph-6 {
+    margin-left: 45px;
+}
+
+/* project 7 */
+img.uranus {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 15%;
+    border-radius: 60px;
+    margin-top: 130%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-7 {
+    color: white;
+    margin-top: 125%;
+}
+   
+h6.project-7 {
+    margin-left: 92px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-7 {
+    margin-left: 75px;
+}
+
+p.paragraph-7 {
+    margin-left: 45px;
+}
+
+/* project 8 */
+img.neptune {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 70%;
+    border-radius: 60px;
+    margin-top: 150%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.text-field-8 {
+    color: white;
+    margin-top: 145%;
+    /* margin-left: 60px; */
+    margin-left: 65px;
+   
+}
+
+h6.project-8 {
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: auto;
+}
+
+a.project-8 {
+    margin-left: 75px;
+}
+
+p.paragraph-8 {
+    margin-left: 45px;
+}
+
+footer.page-footer.font-small.blue {
+    position: fixed;
+    /* bottom: 20px; */
+    bottom: 0px;
+    /* font-size: 40px; */
+    margin-left: 18%;
+}
+
+img.facebook-icon {
+    position: initial;
+    /* width: 20px; */
+    height: 20px;
+    border-radius: 4px;
+    margin-left: 80px;
+}
+
+img.linkedin-icon {
+    position: initial;
+    /* width: 26px; */
+    height: 20px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.flex-footer {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    /* .background-image {
+        height: 100%;
+        min-height: 600px;
+      } */
+
+      canvas {
+          width: 768px;
+          height: 682px;
+          image-rendering: pixelated;
+      }
+
+      .navbar {
+          /* justify-content: flex-end; */
+          margin-bottom: 30px;
+          margin-right: 60%;
+      }
+
+      .searchfield {
+          display: block;
+          position: absolute;
+          top: 0;
+          /* margin-top: 2px; */
+          margin-left: 65%;
+          margin-top: 10px;
+      }
+
+      .form-control {
+        height: 25px;
+    }
+
+    .btn-outline-success {
+        color: blue;
+        background-color: transparent;
+        background-image: none;
+        border-color: blue;
+        height: 25px;
+        font-size: 10px
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+    div#alert {
+        margin-top: 60px;
+        width: 48%;
+        height: 30px;
+        margin-left: 26.5%;
+    }
+
+    p.alert-banner-close {
+        right: 0px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+      h4 {
+          font-size: 20px;
+          margin-top: 60px;
+          margin-left: 35%;
+      }
+
+      .projects {
+          display: block;
+          margin-top: auto;
+      }
+
+      /* Project 1 */
+      .mercury {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 10%;;
+        border-radius: 60px;
+        margin-top: 13%;
+    }
+
+    .text-field.wrapper {
+        margin-top: 11%;
+        margin-left: 9%;
+    }
+
+    /* project 2 */
+    img.venus {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 70%;
+        border-radius: 60px;
+        margin-top: 20%;
+    }
+
+    .text-field-2.wrapper {
+        color: white;
+        /* font-size: 10px; */
+        margin-left: 47%;
+        margin-top: 18%;
+    }
+
+    /* Project 3 */
+    img.earth {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 30%;
+        border-radius: 60px;
+        margin-top: 29%;
+    }
+
+    .text-field-3 {
+        color: white;
+       margin-top: 27%;
+       margin-left: 25%;
+        /* margin-top: 90px; */
+     
+    }
+
+    /* project 4 */
+    img.mars {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 85%;
+        border-radius: 60px;
+        margin-top: 40%;
+    }
+
+    .text-field-4 {
+        color: white;
+        margin-top: 38%;
+        margin-left: 62%;
+    }
+
+    /* project 5 */
+    img.jupiter {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 10%;
+        border-radius: 60px;
+        margin-top: 40%;
+    }
+    
+    .text-field-5 {
+       color: white;
+       margin-top: 39%;
+       margin-left: 8%;
+    }
+
+    /* project 6 */
+    img.saturn {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 50%;
+        border-radius: 60px;
+        margin-top: 50%;
+    }
+    
+    .text-field-6 {
+        color: white;
+        margin-top: 24%;
+        margin-left: 30%;
+      
+    }
+
+    /* project 7 */
+    img.uranus {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 15%;
+        border-radius: 60px;
+        margin-top: 60%;
+    }
+    
+    
+    .text-field-7 {
+        color: white;
+        margin-top: 58%;
+        margin-left: 13%;
+    }
+
+    /* project 8 */
+    img.neptune {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-left: 75%;
+        border-radius: 60px;
+        margin-top: 60%;
+    }
+
+    /* modal window 1 768px */
+    .modal-content {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+    }
+    
+    hr {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+    }
+    
+    img.modal-image1 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button1 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 2 768px */
+    .modal-content2 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 54%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+
+    p.modal-desc2 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+
+    hr.second-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 37%;
+        margin-left: 26%;
+    }
+
+    img.modal-image2 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 90px;
+    
+    }
+
+    button.view-button2 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+
+    span.close2 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 3 768px */
+    .modal-content3 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc3 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.third-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 40%;
+        margin-left: 28%;
+    }
+    
+    img.modal-image3 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 40%;
+    
+    }
+    
+    button.view-button3 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close3 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 4 768px */
+    .modal-content4 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc4 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.fourth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 40%;
+        margin-left: 27%;
+    }
+    
+    img.modal-image4 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 40%;
+        
+    
+    }
+    
+    button.view-button4 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close4 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 5 768px */
+    .modal-content5 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc5 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.fifth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-left: 27%;
+        margin-top: 35%;
+    }
+    
+    img.modal-image5 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 40%;
+    
+    }
+    
+    button.view-button5 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close5 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 6 768px */
+    .modal-content6 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 46%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc6 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.sixth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-left: 30%;
+        margin-top: 37%;
+    }
+    
+    img.modal-image6 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 40%;
+    
+    }
+    
+    button.view-button6 {
+        position: absolute;
+        z-index: 3;
+        bottom: 21%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close6 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 7 768px */
+    .modal-content7 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc7 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.seventh-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-left: 30%;
+        margin-top: 33%;
+    }
+    
+    img.modal-image7 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 42%;
+    
+    }
+    
+    button.view-button7 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close7 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 8 768px */
+    .modal-content8 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc8 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.eighth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-left: 28%;
+        margin-top: 35%;
+    }
+    
+    img.modal-image8 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 42%;
+    
+    }
+    
+    button.view-button8 {
+        position: absolute;
+        z-index: 3;
+        bottom: 22%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close8 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .text-field-8 {
+        color: white;
+        margin-top: 58%;
+        margin-left: 55%;
+       
+    }
+
+    /* footer */
+    footer.page-footer.font-small.blue {
+        position: fixed;
+        /* bottom: 20px; */
+        bottom: 0px;
+        /* font-size: 40px; */
+        margin-left: 35%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    canvas {
+        min-width: 1024px;
+        height: 682px;
+        image-rendering: pixelated;
+    }
+
+    .searchfield {
+        margin-left: 75%;
+    }
+
+    div#alert {
+        margin-top: 50px;
+        font-size: 14px;
+        width: 50%;
+        height: 6.5%;
+        padding: 10px;
+    }
+
+    p.alert-banner-close {
+        cursor: pointer;
+    }
+
+    h4 {
+        margin-left: 39%;
+        margin-top: 50px;
+    }
+
+    img.mercury {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 12%;;
+        border-radius: 60px;
+        margin-top: 10%;
+    }
+    
+    .text-field.wrapper {
+      margin-top: 8%;
+      margin-left: 10%;
+       
+    }
+
+    img.venus {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 70%;
+        border-radius: 60px;
+        margin-top: 12%;
+    }
+    
+    .text-field-2.wrapper {
+        color: white;
+        /* font-size: 10px; */
+        margin-left: 52%;
+        margin-top: 10%;
+    }
+
+    img.earth {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 28%;
+        border-radius: 60px;
+        margin-top: 20%;
+    }
+    
+    
+    .text-field-3 {
+        color: white;
+       margin-top: 190px;
+        /* margin-top: 90px; */
+     
+    }
+
+    img.mars {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 85%;
+        border-radius: 60px;
+        margin-top: 25%;
+    }
+    
+    
+    .text-field-4 {
+        color: white;
+        margin-top: 24%;
+        margin-left: 68%;
+    
+    }
+
+    img.jupiter {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 10%;
+        border-radius: 60px;
+        margin-top: 30%;
+    }
+    
+    .text-field-5 {
+       color: white;
+       margin-top: 30%;
+    }
+
+    img.saturn {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 55%;
+        border-radius: 60px;
+        margin-top: 35%;
+    }
+    
+    
+    .text-field-6 {
+        color: white;
+        margin-top: 15%;
+        margin-left: 40%;
+      
+    }
+
+    img.uranus {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 15%;
+        border-radius: 60px;
+        /* margin-top: 140%; */
+        margin-top: 45%;
+    }
+    
+    
+    .text-field-7 {
+        color: white;
+        margin-top: 44%;
+    }
+
+    img.neptune {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 79%;
+        border-radius: 60px;
+        /* margin-top: 160%; */
+        margin-top: 50%;
+    }
+
+    /* modal window 1 1024px */
+    .modal-content {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+    }
+    
+    hr {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+    }
+    
+    img.modal-image1 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 41%;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button1 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 2 1024px */
+    .modal-content2 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc2 {
+        font-size: 13px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 12%;
+    }
+    
+    hr.second-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 26%;
+        margin-left: 33%;
+    }
+    
+    img.modal-image2 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 85px;
+        border-radius: 30px;
+        margin-left: 42%;
+    
+    }
+    
+    button.view-button2 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close2 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 3 1024px */
+    .modal-content3 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc3 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 15%;
+    }
+    
+    hr.third-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-left: 33%;
+        margin-top: 33%;
+    }
+    
+    img.modal-image3 {
+        z-index: 2;
+        width: 60px;
+        height: 60px;
+        margin-top: 8%;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button3 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close3 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 4 1024px */
+    .modal-content4 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc4 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+    }
+    
+    hr.fourth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 28%;
+        margin-left: 32%;
+    }
+    
+    img.modal-image4 {
+        z-index: 2;
+        width: 60px;
+        height: 60px;
+        margin-top: 12px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button4 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close4 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 5 1024px */
+    .modal-content5 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc5 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+    }
+    
+    hr.fifth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 27.5%;
+        margin-left: 32%;
+    }
+    
+    img.modal-image5 {
+        z-index: 2;
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button5 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close5 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 6 1024px */
+    .modal-content6 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 47%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc6 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 12%;
+    }
+    
+    hr.sixth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 27%;
+        margin-left: 32%;
+    }
+    
+    img.modal-image6 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button6 {
+        position: absolute;
+        z-index: 3;
+        bottom: 11%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close6 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 7 1024px */
+    .modal-content7 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc7 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 12%;
+    }
+    
+    hr.seventh-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 23%;
+        margin-left: 33%;
+    }
+    
+    img.modal-image7 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 12px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button7 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close7 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* modal window 8 1024px */
+    .modal-content8 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        z-index: 3;
+        width: 30%;
+        height: 45%;
+        margin-left: 34%;
+        margin-top: 25%;
+        background-color: black;
+    }
+    
+    p.modal-desc8 {
+        font-size: 15px;
+        position: absolute;
+        z-index: 3;
+        color: black;
+        margin-top: 90px;
+        display: flex;
+        padding: 10px;
+        color: lightsteelblue;
+        margin-bottom: 12%;
+    }
+    
+    hr.eighth-line {
+        /* color: black; */
+        width: 100px;
+        border: 1px solid gray;
+        margin-top: 24%;
+        margin-left: 32%;
+    }
+    
+    img.modal-image8 {
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-right: 85px;
+        border-radius: 30px;
+    
+    }
+    
+    button.view-button8 {
+        position: absolute;
+        z-index: 3;
+        bottom: 13%;
+        margin-left: 35%;
+        width: 28%;
+        font-size: 10px;
+    }
+    
+    span.close8 {
+        position: absolute;
+        right: 2%;
+        top: 0;
+        color: lightsteelblue;
+        z-index: 3;
+        bottom: 20.5%;
+        margin-left: 32%;
+        /* width: 40%; */
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+
+    
+    
+    .text-field-8 {
+        color: white;
+        margin-top: 48%;
+        /* margin-left: 60px; */
+        margin-left: 63%;
+       
+    }
+
+    footer.page-footer.font-small.blue {
+        margin-left: 40%;
+    }
+       
+
+    @keyframes popout {
+        0% {
+            -moz-tranform: scale(0);
+            -webkit-transform: scale(0);
+            -o-transform: scale(0);
+            transform: scale(0);
+             
+        }
+        30% {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        60% {
+            -moz-transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            -o-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+    }
+    
+}

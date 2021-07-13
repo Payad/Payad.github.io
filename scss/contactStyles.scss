@@ -1,0 +1,289 @@
+
+
+// <!-- Background animation credited by Anastasia Goodwin -->
+// <!-- Anastasia Goodwin: pure CSS twinkling stars background -->
+
+@keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  @-webkit-keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  @-moz-keyframes move-background {    
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+      @-webkit-keyframes move-background {
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  .background-container{
+      position: fixed;
+      top: 0;
+      left:0;
+      bottom: 0;
+      right: 0;
+  }
+  
+  .stars {
+   background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+   position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+        z-index: 0;
+  }
+  
+  .twinkling{
+      width:10000px;
+      height: 100%;
+      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      
+      -moz-animation:move-background 70s linear infinite;
+    -ms-animation:move-background 70s linear infinite;
+    -o-animation:move-background 70s linear infinite;
+    -webkit-animation:move-background 70s linear infinite;
+    animation:move-background 70s linear infinite;
+      
+  }
+  
+  .clouds{
+      width:10000px;
+      height: 100%;
+      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 3;
+  
+     -moz-animation:move-background 150s linear infinite;
+    -ms-animation:move-background 150s linear infinite;
+    -o-animation:move-background 150s linear infinite;
+    -webkit-animation:move-background 150s linear infinite;
+    animation:move-background 150s linear infinite;
+  }
+  img{
+    height: 70vh;
+    width:70vh;
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+  }
+
+  
+//   ul.nav.navbar.navbar-dark {
+//     // position: absolute;
+//     z-index: 2;
+//     font-size: 10px;
+//     display: flex;
+//   }
+
+ul.nav.navbar.navbar-dark {
+    position: static;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  li.nav-item {
+    margin-right: auto;
+  }
+
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    position: absolute;
+    z-index: 2;
+  }
+  .nav-link2 {
+    position: absolute;
+    top: 16px;
+    z-index: 2;
+    margin-left: 18px;
+  }
+
+//   img.icon8-email {
+//       height: 20px;
+//       width: 20px;
+//       margin-right: 70%;
+//       margin-top: 50%;
+//   }
+
+h1 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+  svg.iconmonstr-email {
+    // height: 20px;
+    // width: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-right: 70%;
+    margin-top: 49%;
+    margin-left: 65px;
+    cursor: pointer;
+  }
+ 
+  p.email1 {
+      position: absolute;
+      z-index: 2;
+      color: white;
+      margin-top: 49%;
+      margin-left: 30%;
+  }
+
+  svg.facebook-icon {
+      position: absolute;
+      z-index: 2;
+      margin-top: 60%;
+      margin-left: 20%;
+      border-radius: 4px;
+      border: 1px solid blue;
+      cursor: pointer;
+  }
+
+  p.facebook1 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-top: 60%;
+    margin-left: 30%;
+  }
+
+  svg.LinkedIn-icon {
+      position: absolute;
+      z-index: 2;
+      margin-top: 72%;
+      margin-left: 20%;
+      border: 1px solid blue;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  p.linkedIn1 {
+      position: absolute;
+      z-index: 2;
+      color: white;
+      margin-top: 72%;
+      margin-left: 30%;
+  }
+
+  @media (min-width: 768px) {
+
+    ul.nav.navbar.navbar-dark {
+        position: static;
+        font-size: 10px;
+        justify-content: center;
+        margin-left: 80px;
+      }
+
+      h1 {
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 30%;
+        font-size: 20px;
+      }
+
+      svg.iconmonstr-email {
+          margin-left: 20%;
+      }
+
+      @media (min-width: 1024px) {
+
+        ul.nav.navbar.navbar-dark {
+            position: static;
+            font-size: 15px;
+            justify-content: center;
+            margin-left: 12%;
+          }
+
+          h1 {
+            position: absolute;
+            margin-left: 45%;
+            margin-top: 20%;
+            font-size: 20px;
+          }
+
+          div.email {
+              margin-top: 20px;
+              position: absolute;
+              z-index: 2;
+              margin-left: 19%;
+              margin-top: 30%;
+          }
+
+          p.email1 {
+              position: absolute;
+              display: flex;
+              margin-left: 40px;
+              margin-top: 30%;
+          }
+
+          div.facebook-icon {
+            margin-top: 20px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 19%;
+            margin-top: 40%;
+          }
+
+          p.facebook1 {
+            position: absolute;
+            display: flex;
+            margin-left: 40px;
+            margin-top: 40%;
+          }
+
+          div.LinkedIn-icon {
+            margin-top: 20px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 19%;
+            margin-top: 50%;
+          }
+
+          p.linkedIn1 {
+            position: absolute;
+            display: flex;
+            margin-left: 40px;
+            margin-top: 50%;
+          }
+
+      }
+
+  }
