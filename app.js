@@ -27,11 +27,7 @@ const modalWindow5 = document.getElementById("modal-window5");
 const modalWindow6 = document.getElementById("modal-window6");
 const modalWindow7 = document.getElementById("modal-window7");
 const modalWindow8 = document.getElementById("modal-window8");
-// const searchInput = document.getElementById("search-input");
-// const filter = input.value.toUpperCase();
-// const ul = document.getElementById("search-list");
-// const li = ul.getElementsByTagName("li");
-// const modalImage1 = document.getElementById("modal-image1");
+
 const mercury = document.getElementById("mercury");
 const venus = document.getElementById("venus");
 const earth = document.getElementById("earth");
@@ -182,22 +178,3 @@ for (i = 0; i < li.length; i++) {
     }
 }
 }
-
-
-    
-
-    // modalImage1.onclick = function() {
-    //     modalWindow.style.display = "block";
-    // }
-
-
-// function openModal1() {
-//     modalWindow.style.display = "block";
-// }
-
-// modalWindow.addEventListener("click", () => {
-//     modalWindow.style.display= "none";
-//     if () {
-
-//     }
-// });
