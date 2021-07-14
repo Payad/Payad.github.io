@@ -27,7 +27,11 @@ const modalWindow5 = document.getElementById("modal-window5");
 const modalWindow6 = document.getElementById("modal-window6");
 const modalWindow7 = document.getElementById("modal-window7");
 const modalWindow8 = document.getElementById("modal-window8");
-
+// const searchInput = document.getElementById("search-input");
+// const filter = input.value.toUpperCase();
+// const ul = document.getElementById("search-list");
+// const li = ul.getElementsByTagName("li");
+// const modalImage1 = document.getElementById("modal-image1");
 const mercury = document.getElementById("mercury");
 const venus = document.getElementById("venus");
 const earth = document.getElementById("earth");
@@ -57,105 +61,105 @@ alertBanner.addEventListener("click", (e) => {
 modalWindow.style.display = "none";
 
 mercury.addEventListener("click", () => {
-    modalWindow.style.display = "block"
+    modalWindow.style.display = "block";
 });
 
 span.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close")) {
-        modalWindow.style.display = "none"
+        modalWindow.style.display = "none";
     }
 });
 
 modalWindow2.style.display = "none";
 
 venus.addEventListener("click", () => {
-    modalWindow2.style.display = "block"
+    modalWindow2.style.display = "block";
 });
 
 
 span2.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close2")) {
-        modalWindow2.style.display = "none"
+        modalWindow2.style.display = "none";
     }
 });
 
 modalWindow3.style.display = "none";
 
 earth.addEventListener("click", () => {
-    modalWindow3.style.display = "block"
+    modalWindow3.style.display = "block";
 });
 
 span3.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close3")) {
-        modalWindow3.style.display = "none"
+        modalWindow3.style.display = "none";
     }
 });
 
 modalWindow4.style.display = "none";
 
 mars.addEventListener("click", () => {
-     modalWindow4.style.display = "block"
+     modalWindow4.style.display = "block";
 });
 
 span4.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close4")) {
-        modalWindow4.style.display = "none"
+        modalWindow4.style.display = "none";
     }
 });
 
 modalWindow5.style.display = "none";
 
 jupiter.addEventListener("click", () => {
-    modalWindow5.style.display = "block"
+    modalWindow5.style.display = "block";
 });
 
 span5.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close5")) {
-        modalWindow5.style.display = "none"
+        modalWindow5.style.display = "none";
     }
 });
 
 modalWindow6.style.display = "none";
 
 saturn.addEventListener("click", () => {
-    modalWindow6.style.display = "block"
+    modalWindow6.style.display = "block";
 });
 
 span6.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close6")) {
-        modalWindow6.style.display = "none"
+        modalWindow6.style.display = "none";
     }
 });
 
 modalWindow7.style.display = "none";
 
 uranus.addEventListener("click", () => {
-    modalWindow7.style.display = "block"
+    modalWindow7.style.display = "block";
 });
 
 span7.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close7")) {
-        modalWindow7.style.display = "none"
+        modalWindow7.style.display = "none";
     }
 });
 
 modalWindow8.style.display = "none";
 
 neptune.addEventListener("click", () => {
-    modalWindow8.style.display = "block"
+    modalWindow8.style.display = "block";
 });
 
 span8.addEventListener("click", (e) => {
     const element = e.target;
     if (element.classList.contains("close8")) {
-        modalWindow8.style.display = "none"
+        modalWindow8.style.display = "none";
     }
 });
 
@@ -178,3 +182,22 @@ for (i = 0; i < li.length; i++) {
     }
 }
 }
+
+
+    
+
+    // modalImage1.onclick = function() {
+    //     modalWindow.style.display = "block";
+    // }
+
+
+// function openModal1() {
+//     modalWindow.style.display = "block";
+// }
+
+// modalWindow.addEventListener("click", () => {
+//     modalWindow.style.display= "none";
+//     if () {
+
+//     }
+// });

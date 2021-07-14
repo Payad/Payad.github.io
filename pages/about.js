@@ -1,3 +1,6 @@
+
+// flying through space animated background courtesy of Karen Hovsepyan!
+
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
         sURLVariables = sPageURL.split('&'),
@@ -61,7 +64,7 @@ function Star() {
 
 Star.prototype.Draw = function () {
     this.X += this.SX;
-    this.Y += this.SY
+    this.Y += this.SY;
     
     this.SX += this.SX / (50 / acceleration);
   	this.SY += this.SY / (50 / acceleration);

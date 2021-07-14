@@ -1,3 +1,26 @@
+ /* body { 
+     background-image: url(images/pexels-miriam-espacio-galaxy.jpg); */
+     /* background: url(images/pexels-miriam-espacio-galaxy.jpg) no-repeat;
+     background-position: center center fixed; */
+     
+     /* background-size: contain; 
+     background-size: cover;  */
+     /* background-size: no-repeat top center fixed; */
+     /* width: 100%;
+    height: 100%;  */
+ /* }  */
+
+ /* img {
+     image-rendering: pixelated;
+ } */
+
+/* .background-image {
+    height: 100%;
+    min-height: 700px;
+    background-size: cover;
+    position: relative;
+    image-rendering: pixelated;
+} */
 
 body, html {
     background-color: #000;
@@ -16,6 +39,9 @@ canvas {
 
 .navbar {
     font-size: 10px;
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* margin-bottom: 55px; */
     margin-bottom: 35px;
     margin-right: 70px;
 }
@@ -26,6 +52,21 @@ canvas {
     margin-top: 30%;
     margin-left: 20px;
 }
+
+/* .search {
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 20px;
+    z-index: -2;
+}
+
+input#search {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30%;
+    height: 25px;
+} */
 
 ul#search-list {
     position: absolute;
@@ -76,6 +117,8 @@ h4 {
     position: absolute;
     font-size: 12px;
     margin-left: 28%;
+    /* margin-top: 30%; */
+    /* margin-top: 5%; */
     color: blue;
 }
 
@@ -136,6 +179,7 @@ p.modal-desc {
 }
 
 hr {
+    /* color: black; */
     width: 100px;
     border: 1px solid gray;
 }
@@ -166,7 +210,6 @@ a.view-button1 {
     cursor: pointer;
 }
 
-
 span.close {
     position: absolute;
     right: 2%;
@@ -175,16 +218,16 @@ span.close {
     z-index: 3;
     bottom: 20.5%;
     margin-left: 32%;
+    /* width: 40%; */
     font-size: 18px;
     font-weight: 100;
     cursor: pointer;
 }
 
-.close {
+/* .close {
     font-weight: 0px;
     text-shadow: 0px;
-
-}
+} */
 
 /* modal window 2 */
 .modal-content2 {
@@ -193,7 +236,8 @@ display: flex;
     position: absolute;
     z-index: 3;
     width: 50%;
-    height: 45%;
+    /* height: 42%; */
+    height: 46%;
     margin-left: 27%;
     margin-top: 40%;
     background-color: black;
@@ -208,7 +252,7 @@ p.modal-desc2 {
     display: flex;
     padding: 10px;
     color: lightsteelblue;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 hr.second-line {
@@ -230,13 +274,29 @@ img.modal-image2 {
     margin-left: 50px;
 }
 
-button.view-button2 {
+/* button.view-button2 {
     position: absolute;
     z-index:3;
     bottom: 20.5%;
     margin-left: 32%;
     width: 40%;
     font-size: 10px;
+    cursor: pointer;
+} */
+
+a.view-button2 {
+    position: absolute;
+    z-index:3;
+    bottom: 20%;
+    margin-left: 32%;
+    width: 40%;
+    font-size: 10px;
+    border: 2px solid white;
+    height: 15px;
+    background-color:white;
+    color: black;
+    padding-left: 35px;
+    padding-bottom: 15px;
     cursor: pointer;
 }
 
@@ -256,6 +316,8 @@ span.close2 {
         position: absolute;
         z-index: 3;
         width: 50%;
+        /* height: 42%; */
+        /* height: 45%; */
         height: 38%;
         margin-left: 27%;
         margin-top: 40%;
@@ -303,13 +365,29 @@ span.close2 {
         margin-left: 50px;
     }
     
-    button.view-button3 {
+    /* button.view-button3 {
         position: absolute;
         z-index:3;
         bottom: 28.5%;
         margin-left: 32%;
         width: 40%;
         font-size: 10px;
+        cursor: pointer;
+    } */
+
+    a.view-button3 {
+        position: absolute;
+        z-index:3;
+        bottom: 28%;
+        margin-left: 32%;
+        width: 40%;
+        font-size: 10px;
+        border: 2px solid white;
+        height: 15px;
+        background-color:white;
+        color: black;
+        padding-left: 35px;
+        padding-bottom: 15px;
         cursor: pointer;
     }
     
@@ -329,6 +407,8 @@ span.close2 {
             position: absolute;
             z-index: 3;
             width: 50%;
+            /* height: 42%; */
+            /* height: 45%; */
             height: 38%;
             margin-left: 27%;
             margin-top: 40%;
@@ -376,13 +456,29 @@ span.close2 {
             margin-left: 50px;
         }
 
-        button.view-button4 {
+        /* button.view-button4 {
             position: absolute;
             z-index:3;
             bottom: 28.5%;
             margin-left: 32%;
             width: 40%;
             font-size: 10px;
+            cursor: pointer;
+        } */
+
+        a.view-button4 {
+            position: absolute;
+            z-index:3;
+            bottom: 28%;
+            margin-left: 32%;
+            width: 40%;
+            font-size: 10px;
+            border: 2px solid white;
+            height: 15px;
+            background-color:white;
+            color: black;
+            padding-left: 35px;
+            padding-bottom: 15px;
             cursor: pointer;
         }
 
@@ -402,6 +498,8 @@ span.close2 {
                 position: absolute;
                 z-index: 3;
                 width: 50%;
+                /* height: 42%; */
+                /* height: 45%; */
                 height: 38%;
                 margin-left: 27%;
                 margin-top: 40%;
@@ -449,13 +547,29 @@ span.close2 {
                 margin-left: 50px;
             }
 
-            button.view-button5 {
+            /* button.view-button5 {
                 position: absolute;
                 z-index:3;
                 bottom: 28.5%;
                 margin-left: 32%;
                 width: 40%;
                 font-size: 10px;
+                cursor: pointer;
+            } */
+
+            a.view-button5 {
+                position: absolute;
+                z-index:3;
+                bottom: 28%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                border: 2px solid white;
+                height: 15px;
+                background-color:white;
+                color: black;
+                padding-left: 35px;
+                padding-bottom: 15px;
                 cursor: pointer;
             }
 
@@ -475,6 +589,8 @@ span.close2 {
                     position: absolute;
                     z-index: 3;
                     width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
                     height: 40%;
                     margin-left: 27%;
                     margin-top: 40%;
@@ -521,13 +637,29 @@ span.close2 {
                 margin-left: 50px;
             }
 
-            button.view-button6 {
+            /* button.view-button6 {
                 position: absolute;
                 z-index:3;
                 bottom: 26%;
                 margin-left: 32%;
                 width: 40%;
                 font-size: 10px;
+                cursor: pointer;
+            } */
+
+            a.view-button6 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                border: 2px solid white;
+                height: 15px;
+                background-color:white;
+                color: black;
+                padding-left: 35px;
+                padding-bottom: 15px;
                 cursor: pointer;
             }
 
@@ -547,6 +679,8 @@ span.close2 {
                     position: absolute;
                     z-index: 3;
                     width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
                     height: 40%;
                     margin-left: 27%;
                     margin-top: 40%;
@@ -593,13 +727,29 @@ span.close2 {
                 margin-left: 50px;
             }
 
-            button.view-button7 {
+            /* button.view-button7 {
                 position: absolute;
                 z-index:3;
                 bottom: 26%;
                 margin-left: 32%;
                 width: 40%;
                 font-size: 10px;
+                cursor: pointer;
+            } */
+
+            a.view-button7 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                border: 2px solid white;
+                height: 15px;
+                background-color:white;
+                color: black;
+                padding-left: 35px;
+                padding-bottom: 15px;
                 cursor: pointer;
             }
 
@@ -619,6 +769,8 @@ span.close2 {
                     position: absolute;
                     z-index: 3;
                     width: 50%;
+                    /* height: 42%; */
+                    /* height: 45%; */
                     height: 40%;
                     margin-left: 27%;
                     margin-top: 40%;
@@ -665,13 +817,29 @@ span.close2 {
                 margin-left: 55px;
             }
 
-            button.view-button8 {
+            /* button.view-button8 {
                 position: absolute;
                 z-index:3;
                 bottom: 26%;
                 margin-left: 32%;
                 width: 40%;
                 font-size: 10px;
+                cursor: pointer;
+            } */
+
+            a.view-button8 {
+                position: absolute;
+                z-index:3;
+                bottom: 26%;
+                margin-left: 32%;
+                width: 40%;
+                font-size: 10px;
+                border: 2px solid white;
+                height: 15px;
+                background-color:white;
+                color: black;
+                padding-left: 35px;
+                padding-bottom: 15px;
                 cursor: pointer;
             }
 
@@ -693,11 +861,21 @@ img.jupiter:hover,
 img.saturn:hover,
 img.uranus:hover,
 img.neptune:hover {
+    /* z-index: 2; */
    animation: popout 2s ease-out backwards;
   
   
 
    }
+
+   /* .image-desc {
+       animation: poput 2s ease-out;
+   } */
+
+
+
+
+
 
 .text-field.wrapper {
   margin-top: 20%;
@@ -707,9 +885,11 @@ img.neptune:hover {
 
 .wrapper{
     position: absolute;
+    /* top: 0px; */
     color: white;
     font-size: 8px;
     margin : 20px;
+    /* margin-top: 0; */
 }
 
 h6.project-1 {
@@ -738,6 +918,7 @@ img.venus {
 
 .text-field-2.wrapper {
     color: white;
+    /* font-size: 10px; */
     margin-left: 45px;
     margin-top: 35%;
 }
@@ -773,6 +954,7 @@ img.earth {
 .text-field-3 {
     color: white;
    margin-top: 175px;
+    /* margin-top: 90px; */
  
 }
 
@@ -941,6 +1123,7 @@ img.neptune {
 .text-field-8 {
     color: white;
     margin-top: 145%;
+    /* margin-left: 60px; */
     margin-left: 65px;
    
 }
@@ -962,12 +1145,15 @@ p.paragraph-8 {
 
 footer.page-footer.font-small.blue {
     position: fixed;
+    /* bottom: 20px; */
     bottom: 0px;
+    /* font-size: 40px; */
     margin-left: 18%;
 }
 
 img.facebook-icon {
     position: initial;
+    /* width: 20px; */
     height: 20px;
     border-radius: 4px;
     margin-left: 80px;
@@ -975,6 +1161,7 @@ img.facebook-icon {
 
 img.linkedin-icon {
     position: initial;
+    /* width: 26px; */
     height: 20px;
     border-radius: 4px;
     margin-left: 20px;
@@ -985,6 +1172,10 @@ img.linkedin-icon {
 }
 
 @media (min-width: 768px) {
+    /* .background-image {
+        height: 100%;
+        min-height: 600px;
+      } */
 
       canvas {
           width: 768px;
@@ -993,6 +1184,7 @@ img.linkedin-icon {
       }
 
       .navbar {
+          /* justify-content: flex-end; */
           margin-bottom: 30px;
           margin-right: 60%;
       }
@@ -1001,6 +1193,7 @@ img.linkedin-icon {
           display: block;
           position: absolute;
           top: 0;
+          /* margin-top: 2px; */
           margin-left: 65%;
           margin-top: 10px;
       }
@@ -1073,6 +1266,7 @@ img.linkedin-icon {
 
     .text-field-2.wrapper {
         color: white;
+        /* font-size: 10px; */
         margin-left: 47%;
         margin-top: 18%;
     }
@@ -1091,6 +1285,7 @@ img.linkedin-icon {
         color: white;
        margin-top: 27%;
        margin-left: 25%;
+        /* margin-top: 90px; */
      
     }
 
@@ -1195,7 +1390,7 @@ img.linkedin-icon {
     }
     
     hr {
-
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
     }
@@ -1227,6 +1422,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1257,6 +1453,7 @@ img.linkedin-icon {
     }
 
     hr.second-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 37%;
@@ -1291,6 +1488,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1356,6 +1554,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1386,6 +1585,7 @@ img.linkedin-icon {
     }
     
     hr.fourth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 40%;
@@ -1421,6 +1621,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1451,6 +1652,7 @@ img.linkedin-icon {
     }
     
     hr.fifth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-left: 27%;
@@ -1485,6 +1687,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1515,6 +1718,7 @@ img.linkedin-icon {
     }
     
     hr.sixth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-left: 30%;
@@ -1549,6 +1753,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1579,6 +1784,7 @@ img.linkedin-icon {
     }
     
     hr.seventh-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-left: 30%;
@@ -1613,6 +1819,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1643,6 +1850,7 @@ img.linkedin-icon {
     }
     
     hr.eighth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-left: 28%;
@@ -1677,6 +1885,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1691,7 +1900,9 @@ img.linkedin-icon {
     /* footer */
     footer.page-footer.font-small.blue {
         position: fixed;
+        /* bottom: 20px; */
         bottom: 0px;
+        /* font-size: 40px; */
         margin-left: 35%;
     }
 
@@ -1752,6 +1963,7 @@ img.linkedin-icon {
     
     .text-field-2.wrapper {
         color: white;
+        /* font-size: 10px; */
         margin-left: 52%;
         margin-top: 10%;
     }
@@ -1769,6 +1981,7 @@ img.linkedin-icon {
     .text-field-3 {
         color: white;
        margin-top: 190px;
+        /* margin-top: 90px; */
      
     }
 
@@ -1826,6 +2039,7 @@ img.linkedin-icon {
         position: absolute;
         margin-left: 15%;
         border-radius: 60px;
+        /* margin-top: 140%; */
         margin-top: 45%;
     }
     
@@ -1841,6 +2055,7 @@ img.linkedin-icon {
         position: absolute;
         margin-left: 79%;
         border-radius: 60px;
+        /* margin-top: 160%; */
         margin-top: 50%;
     }
 
@@ -1869,6 +2084,7 @@ img.linkedin-icon {
     }
     
     hr {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
     }
@@ -1900,6 +2116,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1930,6 +2147,7 @@ img.linkedin-icon {
     }
     
     hr.second-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 26%;
@@ -1964,6 +2182,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -1994,6 +2213,7 @@ img.linkedin-icon {
     }
     
     hr.third-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-left: 33%;
@@ -2027,6 +2247,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2056,6 +2277,7 @@ img.linkedin-icon {
     }
     
     hr.fourth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 28%;
@@ -2089,6 +2311,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2118,6 +2341,7 @@ img.linkedin-icon {
     }
     
     hr.fifth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 27.5%;
@@ -2151,6 +2375,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2181,6 +2406,7 @@ img.linkedin-icon {
     }
     
     hr.sixth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 27%;
@@ -2214,6 +2440,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2244,6 +2471,7 @@ img.linkedin-icon {
     }
     
     hr.seventh-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 23%;
@@ -2277,6 +2505,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2307,6 +2536,7 @@ img.linkedin-icon {
     }
     
     hr.eighth-line {
+        /* color: black; */
         width: 100px;
         border: 1px solid gray;
         margin-top: 24%;
@@ -2340,6 +2570,7 @@ img.linkedin-icon {
         z-index: 3;
         bottom: 20.5%;
         margin-left: 32%;
+        /* width: 40%; */
         font-size: 18px;
         font-weight: 100;
     }
@@ -2350,6 +2581,7 @@ img.linkedin-icon {
     .text-field-8 {
         color: white;
         margin-top: 48%;
+        /* margin-left: 60px; */
         margin-left: 63%;
        
     }
