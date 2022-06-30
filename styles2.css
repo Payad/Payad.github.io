@@ -1,0 +1,804 @@
+/* html {
+    background-image: url('images/backgroundbinary.png');
+    
+} */
+
+/* body { */
+        /* background-color: navy; */
+        /* background: url('images/backgroundbinary.png') no-repeat center center fixed; */
+        /* background-size: contain;
+        background-repeat: no-repeat; */
+        /* background-size: cover; */
+        
+/* }  */
+
+/* body {
+    background-image: url('james-donovan-hf');
+    Photo by <a href="https://unsplash.com/@jmsdono?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Donovan</a> on <a href="https://unsplash.com/collections/8889167/portfolio-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+} */
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    /* font: normal 75% Arial, Helvetica, sans-serif; */
+  }
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  /* ---- tsparticles container ---- */
+  #tsparticles {
+    position: absolute;
+    /* position: fixed; */
+    width: 100%;
+    height: 100%;
+    background-color: #0d47a1;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position: 50% 50%; */
+    z-index: -1;
+  }
+  
+  .github {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 12px 6px 12px;
+    border: 1px solid #000;
+  }
+  
+  .github a:hover,
+  .github a:link,
+  .github a:visited,
+  .github a:active {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .github img {
+    height: 30px;
+  }
+  
+  .github #gh-project {
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    vertical-align: bottom;
+  }
+  
+  
+
+
+
+
+
+.bg-img {
+    background-repeat: no-repeat;
+    /* offset-position: center; */
+    position: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+#bgCanvas {
+    background-repeat: no-repeat;
+    /* position: center; */
+    offset-position: center;
+    position: fixed;
+    background-size: cover;
+    z-index: -1;
+    /* height: 200px; */
+}
+
+/* video {
+    background-repeat: no-repeat;
+    offset-position: center;
+    position: fixed;
+    background-size: cover;
+    z-index: -1;
+    height: 1000px;
+    width: 1000px;
+} */
+
+/* span navbar */
+
+span.navbar-toggler-icon {
+    margin-right: 1em;
+}
+/* .navbar {
+    background-color: black;
+    background-color: blue;
+} */
+
+.navbar-nav {
+    position: absolute;
+    /* right: 0;
+    margin-right: 20px; */
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 2px; */
+    margin-top: 2em;
+    /* position: fixed; */
+    margin-left: 2.5em;
+    
+}
+
+li.nav-item {
+    font-size: 11px;
+    margin: 1em;
+}
+
+
+
+a.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-size: 2em; */
+    
+}
+
+/* section.mainSection {
+    margin-top: 40%;
+} */
+
+/* div.mainPage {
+    color: white;
+   
+} */
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-left: .5em;
+}
+
+h4 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+}
+
+section.paragraph-section {
+    /* margin-top: 20em; */
+    margin-top: 12em;
+    margin-bottom: -90%;
+}
+
+
+span#intro {
+    /* padding-top: 40%; */
+    margin-top: 40%;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    /* margin: 40px; */
+    /* position: absolute;
+    top: 0; */
+    /* margin-top: 40%; */
+    /* margin-left: 40%; */
+    /* display: inline-block; */
+    /* display: none; */
+    /* margin-right: 20px; */
+    /* transition: margin-left 5s ease-out; */
+    animation: appear 2s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 1s */
+    
+}
+
+@keyframes appear {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 130px;
+    }
+}
+
+@-moz-keyframes appear {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 130px;
+    }
+}
+
+@-webkit-keyframes appear {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 130px;
+    }
+
+}
+
+@-o-keyframes appear {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 130px;
+    }
+}
+
+.name {
+    color: white;
+    /* margin-left: 38%; */
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    /* margin-right: 2px; */
+    /* transition: 2s ease-in; */
+    /* animation: appear2 5s; */
+    /* animation-fill-mode: forwards; */
+    /* animation-delay: 1s; */
+    margin-top: 55%;
+    margin-left: 38%;
+    
+}
+
+@keyframes appear2 {
+    from {
+        left: -100px
+    }
+    To {
+        left: 122px;
+    }
+}
+
+@-moz-keyframes appear2 {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 122px;
+    }
+}
+
+@-webkit-keyframes appear2 {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 122px
+    }
+}
+
+@-o-keyframes appear2 {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 122px;
+    }
+}
+
+/* .introParagraph {
+    margin-top: 55%;
+    
+} */
+
+/* projects page css */
+.paragraph-title {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    /* padding: 1em; */
+}
+
+.paragraph {
+    /* margin-bottom: 8em; */
+    color: white;
+    margin-left: 4em;
+    display: flex;
+    /* flex-direction: row; */
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 12px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding-left: 1em;
+    padding-right: 2em;
+
+}
+
+.btn {
+    background-color: lightsteelblue;
+    margin-left: 32%;
+    margin-bottom: 8em;
+    animation: bounce 2s;
+}
+
+@keyframes bounce {
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+
+    }
+    5% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+        padding-bottom: 5px;
+    }
+    30% {
+        transform:translateY(50%);
+    }
+    40% {
+        transform:translateY(0%);
+        padding-bottom: 6px;
+    }
+    50% {
+        transform:translateY(-30%);
+    }
+    /* break */
+    /* 70% {
+        transform:translateY(0%);
+        padding-bottom: 7px;
+    }
+    80% {
+        transform:translateY(-15%);
+    }
+    90% {
+        transform:translateY(0%);
+        padding-bottom: 8px;
+    }
+    95% {
+        transform:translateY(-7%);
+    }
+    97% {
+        transform:translateY(0%);
+        padding-bottom: 9px;
+    }
+    99% {
+        transform:translateY(-3%);
+    }
+    100% {
+        transform:translateY(0);
+        padding-bottom: 9px;
+        opacity: 1;
+    } */
+}
+
+.intro-set {
+    font-size: 2em;
+}
+
+
+button {
+    margin-left: 25%;
+    /* background-color: initial; */
+    /* background-color: white; */
+    border: 2px solid black;
+    animation: button 2s;
+    /* padding: 10px; */
+    border-radius: 5%;
+    background-color: lightsteelblue;
+
+}
+
+@keyframes button {
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+
+    15% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+}
+
+
+
+p {
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 2em; */
+    /* font-size: 1.5em; */
+}
+
+.introParagraph {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 2em;
+    display: inline-block;
+    margin-top: 60%;
+    /* text-shadow: #FC0 1px 0 10px; */
+    /* text-shadow: #28a7 1px 0 10px; */
+    text-shadow: #28a745 1px 0 10px;
+}
+
+.project {
+    font-family: 'Dancing Script', cursive;
+    /* display: flex; */
+    margin-right: 20px;
+    
+}
+
+.nav-item:hover {
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 0;
+    /* transition-delay: 2s; */
+}
+
+/* .nav-item {
+    transition-delay: .1s;
+    transition-timing-function: ease-out;
+   
+} */
+
+/* projects page imgs */
+img.first-img,
+.second-img,
+.third-img,
+.fourth-img,
+.fifth-img,
+.sixth-img,
+.seventh-img,
+.eigth-img {
+/* object-fit: contain; */
+width: 200px;
+margin-left: 3.6em;
+}
+
+.divButton {
+    margin-bottom: 20%;
+    margin-left: 14%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* img {
+    object-fit: contain;
+    width: 200px;
+    margin-left: 3.6em;
+    } */
+
+/* .img {
+    height: 235px;
+    width: 200px;
+    object-fit: contain
+} */
+
+@media(min-width: 768px) {
+
+    /* html {
+        background: url("images/backgroundbinary.png") no-repeat center center fixed;
+        background-size: contain;
+    } */
+
+    .flex {
+        display: flex;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+
+    /* project class 768px */
+    .first-project.project {
+        margin-left: 1em;
+    }
+
+    .eigth-project.project {
+        margin-left: 3em;
+    }
+
+    /* .second-project.project {
+        margin-left: 10%;
+    } */
+    img.first-img {
+        margin-left: 2.5em;
+    }
+
+    img.second-img.img {
+        margin-left: 26%;
+        height: 235px;
+    }
+
+    img.third-img.img {
+        height: 229px;
+        object-fit: cover;
+    }
+
+    img.fourth-img.img {
+        margin-left: 4.5em;
+    }
+
+    img.sixth-img.img {
+        margin-left: 22%;
+    }
+    img.seventh-img.img {
+        margin-left: 3em;
+    }
+
+    .navbar-expand-md .navbar-nav {
+        margin: 46%;
+    }
+
+    #tsparticles {
+        /* height: 200px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 100px; */
+    }
+
+    /* section.mainSection {
+        margin-top: 20%;
+    } */
+
+    span#intro {
+        margin-top: 20%;
+        margin-left: 28%;
+        font-size: 25px;
+    }
+
+    .name {
+        margin-top: 30%;
+        font-size: 25px;
+        margin-left: 43%;
+    }
+
+    .introParagraph {
+        margin-top: 30%;
+        font-size: 30px;
+    }
+
+    /* h4 768px */
+    h4 {
+        margin-left: 0;
+    }
+
+    /* projects paragraphs 768*/
+    p.first-paragraph {
+        display: inline-block;
+        margin-left: 2em;
+    }
+
+    p.third-paragraph {
+        margin-left: 2px;
+    }
+    p.fourth-paragraph {
+        /* margin-left: 2px; */
+        margin-left: 1em;
+    }
+    p.fifth-paragraph {
+        margin-left: 4px;
+    }
+    p.sixth-paragraph {
+        margin-left: 2%;
+    }
+    p.seventh-paragraph {
+        margin-left: 2em;
+    }
+    p.eigth-paragraph {
+        margin-left: 1em;
+    }
+
+    button {
+        margin-left: 39%;
+    }
+
+    /* projects btn styles 768*/
+    .first-btn {
+        margin-left: 25%;
+        margin-top: 1.2em;
+    }
+    .second-btn {
+        margin-left: 36%;
+    }
+    .third-btn {
+        margin-left: 26%;
+    }
+    .fourth-btn {
+        margin-left: 30%;
+    }
+    .fifth-btn {
+        margin-left: 26%;
+    }
+    .seventh-btn {
+        margin-left: 5em;
+    }
+    .eigth-btn {
+        margin-left: 6em;
+    }
+
+    
+
+    /* projects page */
+    /*imgs on projects page*/
+
+    /* img.first-img {
+        margin-left: 14em;
+        width: 300px;
+    } */
+
+    /* .project {
+        margin-right: 20px;
+    } */
+    h2 {
+        margin-left: 0;
+    }
+
+    /* flex box for project 3 and 4 768px */
+    h4 {
+        margin-left: 1em;
+    }
+    .divButton {
+        margin-left: 8%;
+    }
+}
+
+
+
+
+@media(min-width: 1024px) {
+    .navbar-expand-md .navbar-nav {
+        /* margin: 35%; */
+        
+    }
+    li.nav-item {
+        font-size: 18px;
+        margin-left: 1em;
+    }
+    span#intro {
+        margin-top: 10%;
+        margin-left: 33%;
+        font-size: 2em;
+    }
+    .name {
+        margin-top: 18%;
+        margin-left: 44.5%;
+        font-size: 2em;
+    }
+    .introParagraph {
+        margin-top: 25%;
+        font-size: 35px;
+    }
+
+    button {
+        margin-left: 42%;
+        height: 3em;
+        /* border-radius: 0px; */
+        padding: 10px;
+        cursor: pointer;
+        /* border: 2px solid black; */
+        /* box-shadow: 10px, 5px, 5px, blue; */
+    }
+    /* container flex 1024px */
+    .flex {
+        margin-left: 4%;
+        margin-right: 7%;
+    }
+
+    /* project class */
+    .project {
+        margin: 0px;
+    }
+
+    h2 {
+        margin-right: 1.5em;
+    }
+
+    .fourth-project.project {
+        margin-right: 20px;
+    }
+
+    /* h4 styles */
+    h4.third-h4 {
+        margin-right: 10%;
+    }
+    h4.fourth-h4 {
+        margin-right: 1%;
+    }
+    h4.fifth-h4 {
+        margin-right: 10%;
+    }
+    h4.sixth-h4 {
+        margin-right: 12%;
+    }
+    h4.seventh-h4 {
+        margin-right: 10%;
+    }
+    h4.eigth-h4 {
+        margin-right: 10%;
+    }
+
+    /* projects paragraphs 1024px*/
+    .paragraph {
+        font-size: 20px;
+    }
+
+    p.second-paragraph {
+        margin-left: 2em;
+    }
+    /* p.third-paragraph {
+        margin-bottom: 2.2em;
+    } */
+    p.fifth-paragraph {
+        margin-left: 2%;
+    }
+    p.seventh-paragraph {
+        margin-left: 2%;
+    }
+    p.eigth-paragraph {
+        margin-right: 15%;
+    }
+
+    /* project imgs 1024px */
+    img.first-img.img {
+        margin-left: 25%;
+    }
+    img.second-img.img {
+        margin-left: 34%;
+    }
+    img.third-img.img {
+        margin-left: 25%;
+    }
+    img.fourth-img.img {
+        margin-left: 30%;
+    }
+    img.fifth-img.img {
+        margin-left: 24%;
+    }
+    img.sixth-img.img {
+        margin-left: 26%;
+    }
+    img.seventh-img.img {
+        margin-left: 6.5em;
+    }
+    img.eigth-img.img {
+        margin-left: 24%;
+    }
+
+    /* project btn 1024px */
+    .first-btn {
+        margin-left: 34%;
+    }
+    .second-btn {
+        margin-left: 39%;
+        margin-top: 3%;
+    }
+    .third-btn {
+        margin-left: 32%;
+    }
+    .fourth-btn {
+        margin-left: 35%;
+    }
+    .fifth-btn {
+        margin-left: 30%;
+    }
+    .seventh-btn {
+        margin-left: 31%;
+    }
+    .eigth-btn {
+        margin-left: 30%;
+        margin-bottom: 25%;
+    }
+    .divButton {
+        margin-left: 0%;
+    }
+}
