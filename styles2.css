@@ -468,9 +468,9 @@ width: 200px;
 margin-left: 3.6em;
 }
 
-.divButton {
+#divButton {
     margin-bottom: 20%;
-    margin-left: 14%;
+    margin-left: 24%;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* img {
