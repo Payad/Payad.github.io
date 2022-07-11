@@ -21,11 +21,12 @@
 /* ---- reset ---- */
 body {
     margin: 0;
+    padding: 0;
     /* font: normal 75% Arial, Helvetica, sans-serif; */
   }
   canvas {
     display: block;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
   }
   /* ---- tsparticles container ---- */
   #tsparticles {
@@ -71,15 +72,9 @@ body {
     vertical-align: bottom;
   }
   
-  
-
-
-
-
 
 .bg-img {
     background-repeat: no-repeat;
-    /* offset-position: center; */
     position: fixed;
     background-size: cover;
     z-index: -1;
@@ -87,44 +82,21 @@ body {
 
 #bgCanvas {
     background-repeat: no-repeat;
-    /* position: center; */
     offset-position: center;
     position: fixed;
     background-size: cover;
     z-index: -1;
-    /* height: 200px; */
 }
-
-/* video {
-    background-repeat: no-repeat;
-    offset-position: center;
-    position: fixed;
-    background-size: cover;
-    z-index: -1;
-    height: 1000px;
-    width: 1000px;
-} */
-
-/* span navbar */
 
 span.navbar-toggler-icon {
     margin-right: 1em;
 }
-/* .navbar {
-    background-color: black;
-    background-color: blue;
-} */
 
 .navbar-nav {
     position: absolute;
-    /* right: 0;
-    margin-right: 20px; */
-    /* padding: 10px; */
     display: flex;
     flex-direction: row;
-    /* margin: 2px; */
     margin-top: 2em;
-    /* position: fixed; */
     margin-left: 2.5em;
     
 }
@@ -138,19 +110,9 @@ li.nav-item {
 
 a.navbar-brand {
     font-family: 'Dancing Script', cursive;
-    /* font-family: 'Amatic SC', cursive; */
-    /* font-size: 2em; */
     
 }
 
-/* section.mainSection {
-    margin-top: 40%;
-} */
-
-/* div.mainPage {
-    color: white;
-   
-} */
 
 h2 {
     display: flex;
@@ -186,28 +148,23 @@ span#intro {
     margin-top: 40%;
     color: white;
     display: inline-block;
-    /* margin: 40px; */
     position: absolute;
-/*     top: 0; */
-    /* margin-top: 40%; */
     /* margin-left: 40%; */
-    /* display: inline-block; */
-    /* display: none; */
-    /* margin-right: 20px; */
-    /* transition: margin-left 5s ease-out; */
     animation: appear 2s;
     animation-fill-mode: forwards;
-    /* animation-delay: 1s */
-    margin-left: 30px;
+    /* margin-left: 30px; */
+   
     
 }
 
 @keyframes appear {
     from {
         left: -100px;
+      
     }
     to {
         left: 130px;
+
     }
 }
 
@@ -246,11 +203,6 @@ span#intro {
     text-align: center;
     display: inline-block;
     position: absolute;
-    /* margin-right: 2px; */
-    /* transition: 2s ease-in; */
-    /* animation: appear2 5s; */
-    /* animation-fill-mode: forwards; */
-    /* animation-delay: 1s; */
     margin-top: 55%;
     margin-left: 38%;
     
@@ -293,7 +245,7 @@ span#intro {
 }
 
 /* .introParagraph {
-    margin-top: 55%;
+    margin-top: 10%;
     
 } */
 
@@ -410,17 +362,6 @@ button {
 }
 
 
-
-p {
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-family: 'Amatic SC', cursive; */
-    /* font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: white;
-    padding: 2em; */
-    /* font-size: 1.5em; */
-}
-
 .introParagraph {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -468,24 +409,15 @@ width: 200px;
 margin-left: 3.6em;
 }
 
-#divButton {
+/* #divButton {
     margin-bottom: 20%;
     margin-left: 30%;
     font-family: Arial, Helvetica, sans-serif;
-}
-/* img {
-    object-fit: contain;
-    width: 200px;
-    margin-left: 3.6em;
-    } */
-
-/* .img {
-    height: 235px;
-    width: 200px;
-    object-fit: contain
 } */
 
-@media(min-width: 768px) {
+/* MEDIAQUERY 768 */
+
+@media screen and (min-width: 768px) {
 
     /* html {
         background: url("images/backgroundbinary.png") no-repeat center center fixed;
@@ -552,7 +484,8 @@ margin-left: 3.6em;
 
     span#intro {
         margin-top: 20%;
-        margin-left: 28%;
+        margin-left: 27.5%;
+        /* margin-left: 4.5%; */
         font-size: 25px;
     }
 
@@ -598,9 +531,9 @@ margin-left: 3.6em;
         margin-left: 1em;
     }
 
-    button {
+    /* button {
         margin-left: 39%;
-    }
+    } */
 
     /* projects btn styles 768*/
     .first-btn {
@@ -647,8 +580,8 @@ margin-left: 3.6em;
     h4 {
         margin-left: 1em;
     }
-    .divButton {
-        margin-left: 8%;
+    #divButton {
+        margin-left: 39%;
     }
 }
 
@@ -656,16 +589,17 @@ margin-left: 3.6em;
 
 
 @media(min-width: 1024px) {
-    .navbar-expand-md .navbar-nav {
-        /* margin: 35%; */
+    /* .navbar-expand-md .navbar-nav {
+        margin: 35%;
         
-    }
+    } */
     li.nav-item {
         font-size: 18px;
         margin-left: 1em;
     }
     span#intro {
         margin-top: 10%;
+        /* margin-left: 6%; */
         margin-left: 33%;
         font-size: 2em;
     }
@@ -798,7 +732,7 @@ margin-left: 3.6em;
         margin-left: 30%;
         margin-bottom: 25%;
     }
-    .divButton {
-        margin-left: 0%;
+    #divButton {
+        margin-left: 43%;
     }
 }
