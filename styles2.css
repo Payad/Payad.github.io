@@ -137,6 +137,7 @@ span#intro {
     /* margin-left: 40%; */
     animation: appear 2s;
     animation-fill-mode: forwards;
+    /* margin-left: 50%; */
     /* margin-left: 30px; */
    
     
@@ -148,7 +149,7 @@ span#intro {
       
     }
     to {
-        left: 130px;
+        left: 154px;
 
     }
 }
@@ -158,7 +159,7 @@ span#intro {
         left: -100px;
     }
     to {
-        left: 130px;
+        left: 154px;
     }
 }
 
@@ -167,7 +168,7 @@ span#intro {
         left: -100px;
     }
     to {
-        left: 130px;
+        left: 154px;
     }
 
 }
@@ -177,7 +178,7 @@ span#intro {
         left: -100px;
     }
     to {
-        left: 130px;
+        left: 154px;
     }
 }
 
@@ -396,21 +397,22 @@ width: 200px;
 margin-left: 4em;
 }
 
-/* .divButton {
-    margin-left: 25%;
-} */
-
 button.bTop {
     display: flex;
     margin-bottom: 20%;
     margin-left: 36%;
 }
 
-#divButton {
-    /* margin-bottom: 20%; */
-    margin-left: 21%;
-    /* font-family: Arial, Helvetica, sans-serif; */
+/* #divButton {
+    margin-bottom: 20%;
+    margin-left: 13em;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+form {
+    margin-left: 23px;
 }
+
 
 /* MEDIAQUERY 414 */
 @media screen and (min-width: 414px) {
@@ -451,16 +453,10 @@ button.bTop {
 }
 
 /* MEDIAQUERY 768 */
-
 @media screen and (min-width: 768px) {
 
-    /* html {
-        background: url("images/backgroundbinary.png") no-repeat center center fixed;
-        background-size: contain;
-    } */
-
-    .flex {
-        display: flex;
+.flex {
+        display:flex;
         margin-left: 7%;
         margin-right: 5%;
     }
@@ -474,9 +470,7 @@ button.bTop {
         margin-left: 3em;
     }
 
-    /* .second-project.project {
-        margin-left: 10%;
-    } */
+
     img.first-img {
         margin-left: 2.5em;
     }
@@ -516,21 +510,16 @@ button.bTop {
     }
 
     #tsparticles {
-        /* height: 200px; */
         background-repeat: no-repeat;
         background-size: cover;
-        /* width: 100px; */
     }
 
-    /* section.mainSection {
-        margin-top: 20%;
-    } */
 
     span#intro {
-        margin-top: 20%;
-        margin-left: 27.5%;
-        /* margin-left: 4.5%; */
+        margin-left: 24%;
         font-size: 25px;
+        position: absolute;
+        top: -25%;
     }
 
     .name {
@@ -559,7 +548,6 @@ button.bTop {
         margin-left: 2px;
     }
     p.fourth-paragraph {
-        /* margin-left: 2px; */
         margin-left: 1em;
     }
     p.fifth-paragraph {
@@ -575,9 +563,6 @@ button.bTop {
         margin-left: 1em;
     }
 
-    /* button {
-        margin-left: 39%;
-    } */
 
     /* projects btn styles 768*/
     .first-btn {
@@ -610,19 +595,7 @@ button.bTop {
         margin-left: 5em;
     }
 
-    
 
-    /* projects page */
-    /*imgs on projects page*/
-
-    /* img.first-img {
-        margin-left: 14em;
-        width: 300px;
-    } */
-
-    /* .project {
-        margin-right: 20px;
-    } */
     h2 {
         margin-left: 0;
     }
@@ -654,8 +627,6 @@ button.bTop {
 }
 
 
-
-
 @media(min-width: 1024px) {
     /* .navbar-expand-md .navbar-nav {
         margin: 35%;
@@ -666,9 +637,8 @@ button.bTop {
         margin-left: 1em;
     }
     span#intro {
-        margin-top: 10%;
-        /* margin-left: 6%; */
-        margin-left: 33%;
+        margin-top: 25%;
+        margin-left: 31%;
         font-size: 2em;
     }
     .name {
@@ -684,11 +654,8 @@ button.bTop {
     button {
         margin-left: 42%;
         height: 3em;
-        /* border-radius: 0px; */
         padding: 10px;
         cursor: pointer;
-        /* border: 2px solid black; */
-        /* box-shadow: 10px, 5px, 5px, blue; */
     }
     /* container flex 1024px */
     .flex {
