@@ -1,0 +1,171 @@
+/* html {
+    height: 100vh;
+    width: 100vw;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    /* z-index: -1; */
+    height: 100vh;
+    width: 100vh;
+}
+
+.container {
+    /* height: 100vh; */
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'main main main main main main'
+    'main main main main main main'
+    'main main main main main main'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    /* background-color: #2196f3; */
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.main-heading {
+    color: #ffffff;
+    margin-bottom: 15%;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+img {
+    width: 50%;
+    z-index: -1;
+}
+
+.p1, 
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8 {
+    color: #ffffff;
+}
+
+.img1
+.img2 {
+    /* height: 100%; */
+    width: 50%;
+}
+
+.first-paragraph.paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.second-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.third-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.fourth-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.fifth-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.sixth-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.seventh-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.eigth-paragraph {
+    font-size: 10px;
+    padding: 20px;
+}
+
+/* click button animation */
+@keyframes bounce {
+    0% {
+        transform:translateY(-100%);
+        opacity: 0;
+
+    }
+    5% {
+        transform:translateY(-100%);
+        opacity: 0;
+    }
+    15% {
+        transform:translateY(0);
+        padding-bottom: 5px;
+    }
+    30% {
+        transform:translateY(50%);
+    }
+    40% {
+        transform:translateY(0%);
+        padding-bottom: 6px;
+    }
+    50% {
+        transform:translateY(-30%);
+    }
+}
+
+.pageBtn {
+    margin-bottom: 20%;
+    animation: bounce 2s;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.container > div {
+    text-align: center;
+    /* background-color: rgb(255, 255, 255, 0.8);  */
+}
+
+/* media query 768px */
+
+@media (min-width: 768px) {
+.bg-img {
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    /* z-index: -1; */
+    /* height: 100vh;
+    width: 100vh; */
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+}
