@@ -149,7 +149,8 @@ span#intro {
       
     }
     to {
-        left: 154px;
+/*         left: 154px; */
+        left: 30.5%;
 
     }
 }
