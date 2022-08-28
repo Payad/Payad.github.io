@@ -107,6 +107,11 @@ position: absolute;
 animation: appear 2s;
 animation-fill-mode: forwards;
 margin-top: 35%;
+margin-left: 2%;
+}
+
+.name {
+    margin-left: 39%;
 }
 
 /* span#intro styles */
