@@ -67,7 +67,7 @@ console.log(formSend)
 //   to_email: 'ayadpeter7@gmail.com',
 //   notes: 'Check this out!',
 // };
-emailjs.init('8LCHn5vK0wzHAkYOP');
+// emailjs.init('8LCHn5vK0wzHAkYOP');
 formSend.addEventListener('submit', function(e) {
 e.preventDefault();
 
